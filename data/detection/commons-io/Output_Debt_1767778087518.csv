@@ -1,0 +1,73 @@
+FilePath,FileName,ClassName,Comment
+C:\Users\simon\Documents\Code\thesis-code\commons-io-master\src\test\java\org\apache\commons\io\DeleteDirectoryTest.java,DeleteDirectoryTest.java,DeleteDirectoryTest,""" TODO"""
+C:\Users\simon\Documents\Code\thesis-code\commons-io-master\src\test\java\org\apache\commons\io\DirectoryWalkerTest.java,DirectoryWalkerTest.java,TestMultiThreadCancelWalker,""" TODO is this what we want with invalid directory?"""
+C:\Users\simon\Documents\Code\thesis-code\commons-io-master\src\test\java\org\apache\commons\io\file\PathUtilsDeleteDirectoryTest.java,PathUtilsDeleteDirectoryTest.java,PathUtilsDeleteDirectoryTest,""" TODO Setup the test to use FileVisitOption."""
+C:\Users\simon\Documents\Code\thesis-code\commons-io-master\src\test\java\org\apache\commons\io\file\PathUtilsDeleteTest.java,PathUtilsDeleteTest.java,PathUtilsDeleteTest,""" TODO Setup the test to use LinkOption."""
+C:\Users\simon\Documents\Code\thesis-code\commons-io-master\src\test\java\org\apache\commons\io\file\PathUtilsTest.java,PathUtilsTest.java,PathUtilsTest,""" TEMP HACK"""
+C:\Users\simon\Documents\Code\thesis-code\commons-io-master\src\test\java\org\apache\commons\io\filefilter\FileFilterTest.java,FileFilterTest.java,FileFilterTest,""" TODO better test"""
+C:\Users\simon\Documents\Code\thesis-code\commons-io-master\src\test\java\org\apache\commons\io\filefilter\FileFilterTest.java,FileFilterTest.java,FileFilterTest,""" TODO better test"""
+C:\Users\simon\Documents\Code\thesis-code\commons-io-master\src\test\java\org\apache\commons\io\filefilter\FileFilterTest.java,FileFilterTest.java,FileFilterTest,""" TODO improve these tests"""
+C:\Users\simon\Documents\Code\thesis-code\commons-io-master\src\test\java\org\apache\commons\io\FileSystemTest.java,FileSystemTest.java,FileSystemTest,"""                    // TODO hack 100: truncate blows up when it can't."""
+C:\Users\simon\Documents\Code\thesis-code\commons-io-master\src\test\java\org\apache\commons\io\FileSystemTest.java,FileSystemTest.java,FileSystemTest,""" TODO"""
+C:\Users\simon\Documents\Code\thesis-code\commons-io-master\src\test\java\org\apache\commons\io\FileUtilsCleanDirectoryTest.java,FileUtilsCleanDirectoryTest.java,FileUtilsCleanDirectoryTest,"""
+ * Test cases for FileUtils.cleanDirectory() method.
+ *
+ * TODO Redo this test using
+ * {@link Files#createSymbolicLink(java.nio.file.Path, java.nio.file.Path, java.nio.file.attribute.FileAttribute...)}.
+ """
+C:\Users\simon\Documents\Code\thesis-code\commons-io-master\src\test\java\org\apache\commons\io\FileUtilsCleanDirectoryTest.java,FileUtilsCleanDirectoryTest.java,FileUtilsCleanDirectoryTest,"""
+ * Test cases for FileUtils.cleanDirectory() method.
+ *
+ * TODO Redo this test using
+ * {@link Files#createSymbolicLink(java.nio.file.Path, java.nio.file.Path, java.nio.file.attribute.FileAttribute...)}.
+ """
+C:\Users\simon\Documents\Code\thesis-code\commons-io-master\src\test\java\org\apache\commons\io\FileUtilsCopyDirectoryToDirectoryTest.java,FileUtilsCopyDirectoryToDirectoryTest.java,FileUtilsCopyDirectoryToDirectoryTest,"""
+ * This class ensure the correctness of {@link FileUtils#copyDirectoryToDirectory(File, File)}. TODO: currently does not
+ * cover happy cases
+ *
+ * @see FileUtils#copyDirectoryToDirectory(File, File)
+ """
+C:\Users\simon\Documents\Code\thesis-code\commons-io-master\src\test\java\org\apache\commons\io\FileUtilsCopyDirectoryToDirectoryTest.java,FileUtilsCopyDirectoryToDirectoryTest.java,FileUtilsCopyDirectoryToDirectoryTest,"""
+ * This class ensure the correctness of {@link FileUtils#copyDirectoryToDirectory(File, File)}. TODO: currently does not
+ * cover happy cases
+ *
+ * @see FileUtils#copyDirectoryToDirectory(File, File)
+ """
+C:\Users\simon\Documents\Code\thesis-code\commons-io-master\src\test\java\org\apache\commons\io\FileUtilsFileNewerTest.java,FileUtilsFileNewerTest.java,FileUtilsFileNewerTest,"""
+     * Tests the {@code isFileNewer(File, *)} methods which the specified conditions.
+     *
+     * Creates :
+     * <ul>
+     * <li>a {@code Date} which represents the time reference</li>
+     * <li>a temporary file with the same last modification date as the time reference</li>
+     * </ul>
+     * Then compares (with the needed {@code isFileNewer} method) the last modification date of the specified file with the
+     * specified time reference, the created {@code Date} and the temporary file.
+     * <p>
+     * The test is successful if the three comparisons return the specified wanted result.
+     *
+     * @param description describes the tested situation.
+     * @param file the file of which the last modification date is compared.
+     * @param fileTime the time reference measured in milliseconds since the epoch.
+     * @param wantedResult the expected result.
+     * @throws IOException if an I/O error occurs.
+     """
+C:\Users\simon\Documents\Code\thesis-code\commons-io-master\src\test\java\org\apache\commons\io\FileUtilsListFilesTest.java,FileUtilsListFilesTest.java,FileUtilsListFilesTest,""" TODO? Should we create a custom stream to ignore missing files for Java 24 and up?"""
+C:\Users\simon\Documents\Code\thesis-code\commons-io-master\src\test\java\org\apache\commons\io\FileUtilsListFilesTest.java,FileUtilsListFilesTest.java,FileUtilsListFilesTest,""" TODO? Should we create a custom stream to ignore missing files for Java 24 and up?"""
+C:\Users\simon\Documents\Code\thesis-code\commons-io-master\src\test\java\org\apache\commons\io\FileUtilsListFilesTest.java,FileUtilsListFilesTest.java,FileUtilsListFilesTest,""" TODO? Should we create a custom stream to ignore missing files for Java 24 and up?"""
+C:\Users\simon\Documents\Code\thesis-code\commons-io-master\src\test\java\org\apache\commons\io\FileUtilsTest.java,FileUtilsTest.java,ListDirectoryWalker,"""TODO Maybe test copy to itself like for copyFile()"""
+C:\Users\simon\Documents\Code\thesis-code\commons-io-master\src\test\java\org\apache\commons\io\FileUtilsTest.java,FileUtilsTest.java,ListDirectoryWalker,"""
+     * TODO Passes on macOS, fails on Linux and Windows with AccessDeniedException.
+     """
+C:\Users\simon\Documents\Code\thesis-code\commons-io-master\src\test\java\org\apache\commons\io\FileUtilsTest.java,FileUtilsTest.java,ListDirectoryWalker,""" TODO Passes on macOS, fails on Linux and Windows with AccessDeniedException."""
+C:\Users\simon\Documents\Code\thesis-code\commons-io-master\src\test\java\org\apache\commons\io\FileUtilsTest.java,FileUtilsTest.java,ListDirectoryWalker,"""
+     * TODO Passes on macOS, fails on Linux and Windows with AccessDeniedException.
+     """
+C:\Users\simon\Documents\Code\thesis-code\commons-io-master\src\test\java\org\apache\commons\io\FileUtilsTest.java,FileUtilsTest.java,ListDirectoryWalker,""" TODO What is wrong with Java 8 on macOS? Or is this a macOS file system issue?"""
+C:\Users\simon\Documents\Code\thesis-code\commons-io-master\src\test\java\org\apache\commons\io\function\IOStreamTest.java,IOStreamTest.java,IOStreamTest,""" TODO IOCollector?"""
+C:\Users\simon\Documents\Code\thesis-code\commons-io-master\src\test\java\org\apache\commons\io\function\IOStreamTest.java,IOStreamTest.java,IOStreamTest,""" TODO Need an IOCollector?"""
+C:\Users\simon\Documents\Code\thesis-code\commons-io-master\src\test\java\org\apache\commons\io\function\IOStreamTest.java,IOStreamTest.java,IOStreamTest,""" TODO Resolve, abstract or document these differences?"""
+C:\Users\simon\Documents\Code\thesis-code\commons-io-master\src\test\java\org\apache\commons\io\function\IOStreamTest.java,IOStreamTest.java,IOStreamTest,""" TODO Resolve, abstract or document these differences?"""
+C:\Users\simon\Documents\Code\thesis-code\commons-io-master\src\test\java\org\apache\commons\io\input\ReaderInputStreamTest.java,ReaderInputStreamTest.java,ReaderInputStreamTest,""" TODO WIP"""
+C:\Users\simon\Documents\Code\thesis-code\commons-io-master\src\test\java\org\apache\commons\io\input\ThrottledInputStreamTest.java,ThrottledInputStreamTest.java,ThrottledInputStreamTest,""" case 3: too slow, no sleep needed"""
+C:\Users\simon\Documents\Code\thesis-code\commons-io-master\src\test\java\org\apache\commons\io\IOUtilsTest.java,IOUtilsTest.java,IOUtilsTest,""" TODO Can we mock the test string for this test to pretend to be larger?"""

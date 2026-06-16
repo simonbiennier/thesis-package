@@ -1,0 +1,9 @@
+TestFilePath,ProductionFilePath
+C:\Users\simon\Documents\Code\thesis-code\mockito-main\mockito-extensions\mockito-junit-jupiter\src\test\java\org\mockitousage\annotation\CaptorAnnotationWithPrimitiveTest.java,
+C:\Users\simon\Documents\Code\thesis-code\mockito-main\mockito-extensions\mockito-junit-jupiter\src\test\java\org\mockitousage\GenericTypeMockMultipleMatchesTest.java,
+C:\Users\simon\Documents\Code\thesis-code\mockito-main\mockito-extensions\mockito-junit-jupiter\src\test\java\org\mockitousage\GenericTypeMockTest.java,
+C:\Users\simon\Documents\Code\thesis-code\mockito-main\mockito-extensions\mockito-junit-jupiter\src\test\java\org\mockitousage\InjectMocksTest.java,
+C:\Users\simon\Documents\Code\thesis-code\mockito-main\mockito-extensions\mockito-junit-jupiter\src\test\java\org\mockitousage\JunitJupiterSkippedTest.java,
+C:\Users\simon\Documents\Code\thesis-code\mockito-main\mockito-extensions\mockito-junit-jupiter\src\test\java\org\mockitousage\JunitJupiterTest.java,
+C:\Users\simon\Documents\Code\thesis-code\mockito-main\mockito-extensions\mockito-junit-jupiter\src\test\java\org\mockitousage\MultiLevelNestedTest.java,
+C:\Users\simon\Documents\Code\thesis-code\mockito-main\mockito-extensions\mockito-junit-jupiter\src\test\java\org\mockitousage\StrictnessTest.java,

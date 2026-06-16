@@ -1,0 +1,7 @@
+FilePath,FileName,ClassName,Comment
+C:\Users\simon\Documents\Code\thesis-code\commons-codec-master\src\test\java\org\apache\commons\codec\binary\Base64Test.java,Base64Test.java,Base64Test,""" TODO Assert??"""
+C:\Users\simon\Documents\Code\thesis-code\commons-codec-master\src\test\java\org\apache\commons\codec\binary\Base64Test.java,Base64Test.java,Base64Test,""" TODO"""
+C:\Users\simon\Documents\Code\thesis-code\commons-codec-master\src\test\java\org\apache\commons\codec\binary\Base64Test.java,Base64Test.java,Base64Test,""" TODO do we need to check sep if len = -1?"""
+C:\Users\simon\Documents\Code\thesis-code\commons-codec-master\src\test\java\org\apache\commons\codec\digest\HmacAlgorithmsTest.java,HmacAlgorithmsTest.java,HmacAlgorithmsTest,""" TODO HMAC_SHA_224"""
+C:\Users\simon\Documents\Code\thesis-code\commons-codec-master\src\test\java\org\apache\commons\codec\language\bm\PhoneticEngineTest.java,PhoneticEngineTest.java,PhoneticEngineTest,""" TODO Identify if there is a need to an assertTimeout(Duration.ofMillis(10000L) in some point, since this method was marked as @Test(timeout = 10000L)"""
+C:\Users\simon\Documents\Code\thesis-code\commons-codec-master\src\test\java\org\apache\commons\codec\net\PercentCodecTest.java,PercentCodecTest.java,PercentCodecTest,""" TODO Should be removed?"""

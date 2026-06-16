@@ -1,0 +1,4 @@
+FilePath,FileName,ClassName,Comment
+C:\Users\simon\Documents\Code\thesis-code\commons-numbers-master\commons-numbers-gamma\src\test\java\org\apache\commons\numbers\gamma\BoostBetaTest.java,BoostBetaTest.java,TestError,""" extra tolerance needed on linux X86EM64"""
+C:\Users\simon\Documents\Code\thesis-code\commons-numbers-master\commons-numbers-gamma\src\test\java\org\apache\commons\numbers\gamma\BoostErfTest.java,BoostErfTest.java,BoostErfTest,""" Workaround for NaN not having a valid ulp"""
+C:\Users\simon\Documents\Code\thesis-code\commons-numbers-master\commons-numbers-gamma\src\test\java\org\apache\commons\numbers\gamma\BoostGammaTest.java,BoostGammaTest.java,TestError,""" Lower tolerance on this one, is only really needed on Linux x86 systems, result is mostly down to std lib accuracy:"""

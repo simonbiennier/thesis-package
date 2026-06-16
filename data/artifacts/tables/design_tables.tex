@@ -1,0 +1,69 @@
+
+
+\begin{xltabular}{\linewidth}{l l r r r l r r r}
+    \caption{Systems used in this study.}\label{tab:systems} \\[10pt]
+    \toprule
+    \textbf{System} & \textbf{Version} & \textbf{Classes} & \textbf{KLOC} & \textbf{Size (MB)} & \textbf{JUnit version} & \textbf{Classes} & \textbf{Methods} & \textbf{KLOC} \\
+    \midrule
+    commons-codec & 1.21.0 & 98 & 26 & 2.5 & 5.7.0 & 85 & 885 & 16 \\
+    commons-io & 2.22.0 & 206 & 61 & 6.1 & 5.14.1 & 17 & 2,379 & 39 \\
+    commons-lang & 3.21.0 & 187 & 100 & 11.1 & 5.14.2 & 11 & 4,427 & 66 \\
+    commons-math & 4.0 & 756 & 140 & 11.8 & 5.14.2 & 297 & 2,864 & 66 \\
+    commons-numbers & 1.3 & 551 & 123 & 8.5 & 5.13.4 & 247 & 839 & 89 \\
+    gson & 2.13.3 & 158 & 43 & 2.1 & 4.13.2 & 101 & 1,484 & 23 \\
+    jfreechart & 2.0.0 & 829 & 133 & 12.2 & 5.12.2 & 350 & 2,309 & 40 \\
+    joda-time & 2.14.0 & 88 & 312 & 8.2 & 4.13.2 & 135 & 4,329 & 55 \\
+    \midrule
+    \textbf{All systems} & & \textbf{2,873} & \textbf{938} & \textbf{62.5} & & \textbf{1,243} & \textbf{19,516} & \textbf{394} \\
+    \bottomrule
+  \end{xltabular}
+
+
+\begin{xltabular}{\linewidth}{r l X l}
+    \caption{List of all instances.}\label{tab:instances} \\[10pt]
+    \toprule
+    \textbf{Instance} & \textbf{Test smell} & \textbf{Explanation} & \textbf{Refactoring} \\
+    \midrule
+    1 & General fixture & A variable is initialised in the \texttt{setUp} method for every test case, despite only being used in 17 out of 55 tests. & Inline fixture. \\
+    2 & Unknown test & No assertions are performed; verifies only that the execution completes without throwing an exception. & Add assert statements. \\
+    3 & Lazy test (JUnit~5) & Monolithic test cases perform many similar assertions to verify logic across different primitive types. & Parameterise test using \texttt{@ParameterizedTest}. \\
+    4 & Ignored test & Contains \texttt{@Disabled} tests. & Remove \texttt{@Disabled} tests. \\
+    5 & & Contains \texttt{@Disabled} tests. & Remove \texttt{@Disabled} tests. \\
+    6 & & Contains \texttt{@Disabled} tests. & Remove \texttt{@Disabled} tests. \\
+    7 & & Contains \texttt{@Disabled} tests. & Remove \texttt{@Disabled} tests. \\
+    8 & & Contains \texttt{@Disabled} tests. & Remove \texttt{@Disabled} tests. \\
+    9 & General fixture & A full suite of comparators (e.g., \texttt{cMillis} through \texttt{cYear}) is initialised in the \texttt{setUp} method for every execution, despite the majority of test cases requiring only a single instance. & Inline fixtures. \\
+    10 & & Two variables are initialised in the \texttt{setUp} method for every test case, despite only being used in 2 out of 8 tests. & Inline fixtures. \\
+    11 & Empty test (fixtures) & Empty \texttt{setUp} and \texttt{tearDown}. & Remove fixtures. \\
+    12 & & Empty \texttt{setUp} and \texttt{tearDown}. & Remove fixtures. \\
+    13 & Unknown test & No assertions are performed; verifies only that the execution completes without throwing an exception. & Add assert statements. \\
+    14 & Empty test (fixtures) & Empty \texttt{setUp} and \texttt{tearDown}. & Remove fixtures. \\
+    15 & Unknown test & No assertions are performed; verifies only that the execution completes without throwing an exception. & Add assert statements. \\
+    16 & & No assertions are performed; verifies only that the execution completes without throwing an exception. & Add assert statements. \\
+    17 & Lazy test (JUnit~4) & Repetitive tests verify different date patterns using identical flows. & Parameterise test using data-driven loop. \\
+    18 & Eager test & Groups independent checks of production methods. & Extract tests. \\
+    19 & & Groups independent checks of production methods. & Extract tests. \\
+    20 & & Groups independent checks of production methods. & Extract tests. \\
+    21 & Lazy test (JUnit~4) & Repetitive tests verify different date formats using identical flows. & Parameterise test using data-driven loop. \\
+    22 & Eager test & Contains `catch-all' methods that test multiple behaviours (e.g., formatting, parsing and exception handling). & Extract tests. \\
+    23 & Lazy test (JUnit~4) & Monolithic test cases perform many similar assertions to verify logic across different locales. & Parameterise test using data-driven loop. \\
+    24 & Empty test & Empty tests. & Remove empty tests. \\
+    25 & Redundant print & Test prints to the console (\texttt{System.out.println}). & Remove print statements. \\
+    26 & General fixture & Resets the system's default TimeZone and Locale for every execution, despite these environment configurations only being required in 5 out of 11 tests. & Inline fixtures. \\
+    27 & & A variable is initialised in the \texttt{setUp} method for every test case, despite only being used in 4 out of 9 tests. & Inline fixture. \\
+    28 & Conditional test logic & Uses nested loops to dynamically calculate and verify expected array values. & Extract static array. \\
+    29 & & Uses loops for data generation and verification. & Extracts loops into helper methods. \\
+    30 & Lazy test (JUnit~4) & Redundant methods repeating identical logic for various inputs. & Parameterise test using data-driven loop. \\
+    31 & Eager test & Lacks atomicity; groups independent checks of production methods. & Extract tests. \\
+    32 & Conditional test logic & Uses nested loops to dynamically calculate and verify expected array values. & Extract static array. \\
+    33 & Lazy test (JUnit~5) & Test performs many similar assertions to verify logic across different primitive types. & Parameterise test using \texttt{@ParameterizedTest}. \\
+    34 & & Test performs many similar assertions to verify logic across different primitive types. & Parameterise test using \texttt{@ParameterizedTest}. \\
+    35 & Eager test & Groups independent checks of production methods. & Extract tests. \\
+    36 & Lazy test (JUnit~5) & Test performs many similar assertions to verify logic across different primitive types. & Parameterise test using \texttt{@ParameterizedTest}. \\
+    37 & & Test performs many similar assertions to verify logic across different primitive types. & Parameterise test using \texttt{@ParameterizedTest}. \\
+    38 & Unknown test & No assertions are performed; verifies only that the execution completes without throwing an exception. & Add assert statements. \\
+    39 & Lazy test (JUnit~4) & Contains massive, redundant assertion blocks repeating the same length-comparison logic across various array types. & Parameterise test using data-driven loop. \\
+    40 & & Test repeats identical parsing logic across multiple different date formats. & Parameterise test using data-driven loop. \\
+
+    \bottomrule
+  \end{xltabular}

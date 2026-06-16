@@ -1,0 +1,3 @@
+FilePath,FileName,ClassName,MethodName,TotalStatements,TotalParameters,ReturnType,AccessModifier,MethodHasAnnotation,MethodHasTestInName,FileHasTestInName,ClassHasTestInName
+C:\Users\simon\Documents\Code\thesis-code\mockito-main\mockito-extensions\mockito-subclass\src\test\java\org\mockitosubclass\PluginTest.java,PluginTest.java,PluginTest,mock_maker_should_be_inline,1,0,void,public,true,false,true,true
+C:\Users\simon\Documents\Code\thesis-code\mockito-main\mockito-extensions\mockito-subclass\src\test\java\org\mockitosubclass\PluginTest.java,PluginTest.java,PluginTest,member_accessor_should_be_module,1,0,void,public,true,false,true,true

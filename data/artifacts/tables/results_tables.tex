@@ -1,0 +1,323 @@
+
+
+\begin{xltabular}{\linewidth}{l r r r r r r r r r r r}
+    \caption{Statistics and normality by test smell. Read \( OR \) and \( RF \) as original and refactored samples. Summary rows report the cumulative sum for sample sizes and absolute outlier counts, and the mean for outlier percentages. All rows satisfy normality.}\label{tab:normality} \\[10pt]
+    \toprule
+     & & \multicolumn{2}{c}{Sample size} & \multicolumn{4}{c}{Outliers} & \multicolumn{4}{c}{Shapiro-Wilk} \\
+    \cmidrule(lr){3-4} \cmidrule(lr){5-8} \cmidrule(lr){9-12}
+    \textbf{Test smell} & \textbf{Instance} & OR & RF & OR & RF & Total & \% & \( \mathrm{stat}_{\OR} \) & \( p_{\OR} \) & \( \mathrm{stat}_{\RF} \) & \( p_{\RF} \) \\
+    \midrule
+    Conditional test logic & 28 & 30 & 30 & 1 & 0 & 1 & 1.7 & 0.960 & \textbf{0.327} & 0.963 & \textbf{0.375} \\
+     & 29 & 30 & 30 & 1 & 2 & 3 & 5.0 & 0.969 & \textbf{0.534} & 0.971 & \textbf{0.616} \\
+     & 32 & 30 & 30 & 0 & 1 & 1 & 1.7 & 0.964 & \textbf{0.381} & 0.964 & \textbf{0.416} \\
+    \textbf{Total} & & \textbf{90} & \textbf{90} & \textbf{2} & \textbf{3} & \textbf{5} & \textbf{2.8} & & & & \\
+  \midrule
+    Eager test & 18 & 30 & 30 & 2 & 0 & 2 & 3.3 & 0.961 & \textbf{0.361} & 0.949 & \textbf{0.163} \\
+     & 19 & 30 & 30 & 0 & 1 & 1 & 1.7 & 0.980 & \textbf{0.818} & 0.974 & \textbf{0.671} \\
+     & 20 & 30 & 30 & 0 & 0 & 0 & 0.0 & 0.954 & \textbf{0.212} & 0.979 & \textbf{0.790} \\
+     & 22 & 30 & 30 & 1 & 2 & 3 & 5.0 & 0.954 & \textbf{0.226} & 0.968 & \textbf{0.525} \\
+     & 31 & 30 & 30 & 1 & 0 & 1 & 1.7 & 0.975 & \textbf{0.694} & 0.978 & \textbf{0.761} \\
+     & 35 & 30 & 30 & 1 & 2 & 3 & 5.0 & 0.984 & \textbf{0.922} & 0.977 & \textbf{0.776} \\
+    \textbf{Total} & & \textbf{180} & \textbf{180} & \textbf{5} & \textbf{5} & \textbf{10} & \textbf{2.8} & & & & \\
+  \midrule
+    Empty test & 24 & 30 & 30 & 1 & 0 & 1 & 1.7 & 0.946 & \textbf{0.141} & 0.977 & \textbf{0.728} \\
+    \textbf{Total} & & \textbf{30} & \textbf{30} & \textbf{1} & \textbf{0} & \textbf{1} & \textbf{1.7} & & & & \\
+  \midrule
+    Empty test (fixtures) & 11 & 30 & 30 & 0 & 0 & 0 & 0.0 & 0.988 & \textbf{0.981} & 0.965 & \textbf{0.404} \\
+     & 12 & 30 & 30 & 0 & 0 & 0 & 0.0 & 0.975 & \textbf{0.679} & 0.973 & \textbf{0.632} \\
+     & 14 & 30 & 30 & 0 & 1 & 1 & 1.7 & 0.953 & \textbf{0.201} & 0.930 & \textbf{0.056} \\
+    \textbf{Total} & & \textbf{90} & \textbf{90} & \textbf{0} & \textbf{1} & \textbf{1} & \textbf{0.6} & & & & \\
+  \midrule
+    General fixture & 1 & 30 & 30 & 0 & 2 & 2 & 3.3 & 0.983 & \textbf{0.890} & 0.977 & \textbf{0.766} \\
+     & 9 & 30 & 30 & 0 & 1 & 1 & 1.7 & 0.955 & \textbf{0.227} & 0.972 & \textbf{0.604} \\
+     & 10 & 30 & 30 & 0 & 0 & 0 & 0.0 & 0.964 & \textbf{0.384} & 0.986 & \textbf{0.956} \\
+     & 26 & 30 & 30 & 0 & 0 & 0 & 0.0 & 0.936 & \textbf{0.072} & 0.982 & \textbf{0.873} \\
+     & 27 & 30 & 30 & 1 & 0 & 1 & 1.7 & 0.940 & \textbf{0.099} & 0.972 & \textbf{0.609} \\
+    \textbf{Total} & & \textbf{150} & \textbf{150} & \textbf{1} & \textbf{3} & \textbf{4} & \textbf{1.3} & & & & \\
+  \midrule
+    Ignored test & 4 & 30 & 30 & 1 & 4 & 5 & 8.3 & 0.974 & \textbf{0.669} & 0.926 & \textbf{0.062} \\
+     & 5 & 30 & 30 & 1 & 2 & 3 & 5.0 & 0.941 & \textbf{0.107} & 0.948 & \textbf{0.178} \\
+     & 6 & 30 & 30 & 0 & 0 & 0 & 0.0 & 0.961 & \textbf{0.330} & 0.964 & \textbf{0.393} \\
+     & 7 & 30 & 30 & 0 & 1 & 1 & 1.7 & 0.947 & \textbf{0.141} & 0.981 & \textbf{0.874} \\
+     & 8 & 30 & 30 & 1 & 0 & 1 & 1.7 & 0.958 & \textbf{0.290} & 0.961 & \textbf{0.330} \\
+    \textbf{Total} & & \textbf{150} & \textbf{150} & \textbf{3} & \textbf{7} & \textbf{10} & \textbf{3.3} & & & & \\
+  \midrule
+    Lazy test (JUnit~4) & 17 & 30 & 30 & 0 & 1 & 1 & 1.7 & 0.966 & \textbf{0.440} & 0.958 & \textbf{0.298} \\
+     & 21 & 30 & 30 & 0 & 1 & 1 & 1.7 & 0.963 & \textbf{0.375} & 0.945 & \textbf{0.132} \\
+     & 23 & 30 & 30 & 0 & 2 & 2 & 3.3 & 0.960 & \textbf{0.314} & 0.971 & \textbf{0.603} \\
+     & 30 & 30 & 30 & 0 & 0 & 0 & 0.0 & 0.934 & \textbf{0.063} & 0.937 & \textbf{0.075} \\
+     & 39 & 30 & 30 & 0 & 1 & 1 & 1.7 & 0.964 & \textbf{0.399} & 0.977 & \textbf{0.753} \\
+     & 40 & 30 & 30 & 0 & 1 & 1 & 1.7 & 0.971 & \textbf{0.558} & 0.964 & \textbf{0.419} \\
+    \textbf{Total} & & \textbf{180} & \textbf{180} & \textbf{0} & \textbf{6} & \textbf{6} & \textbf{1.7} & & & & \\
+  \midrule
+    Lazy test (JUnit~5) & 3 & 30 & 30 & 0 & 0 & 0 & 0.0 & 0.969 & \textbf{0.505} & 0.967 & \textbf{0.465} \\
+     & 33 & 30 & 30 & 0 & 0 & 0 & 0.0 & 0.984 & \textbf{0.919} & 0.979 & \textbf{0.798} \\
+     & 34 & 30 & 30 & 1 & 1 & 2 & 3.3 & 0.952 & \textbf{0.203} & 0.929 & \textbf{0.052} \\
+     & 36 & 30 & 30 & 1 & 0 & 1 & 1.7 & 0.975 & \textbf{0.706} & 0.980 & \textbf{0.822} \\
+     & 37 & 30 & 30 & 0 & 2 & 2 & 3.3 & 0.962 & \textbf{0.357} & 0.983 & \textbf{0.915} \\
+    \textbf{Total} & & \textbf{150} & \textbf{150} & \textbf{2} & \textbf{3} & \textbf{5} & \textbf{1.7} & & & & \\
+  \midrule
+    Redundant print & 25 & 30 & 30 & 0 & 2 & 2 & 3.3 & 0.949 & \textbf{0.162} & 0.951 & \textbf{0.213} \\
+    \textbf{Total} & & \textbf{30} & \textbf{30} & \textbf{0} & \textbf{2} & \textbf{2} & \textbf{3.3} & & & & \\
+  \midrule
+    Unknown test & 2 & 30 & 30 & 1 & 1 & 2 & 3.3 & 0.953 & \textbf{0.223} & 0.976 & \textbf{0.728} \\
+     & 13 & 30 & 30 & 0 & 0 & 0 & 0.0 & 0.957 & \textbf{0.260} & 0.984 & \textbf{0.924} \\
+     & 15 & 30 & 30 & 1 & 0 & 1 & 1.7 & 0.943 & \textbf{0.121} & 0.953 & \textbf{0.204} \\
+     & 16 & 30 & 30 & 0 & 3 & 3 & 5.0 & 0.971 & \textbf{0.556} & 0.954 & \textbf{0.269} \\
+     & 38 & 30 & 30 & 0 & 0 & 0 & 0.0 & 0.947 & \textbf{0.139} & 0.993 & \textbf{> 0.999} \\
+    \textbf{Total} & & \textbf{150} & \textbf{150} & \textbf{2} & \textbf{4} & \textbf{6} & \textbf{2.0} & & & & \\
+    \midrule
+    \textbf{All instances} & & \textbf{1,200} & \textbf{1,200} & \textbf{16} & \textbf{34} & \textbf{50} & \textbf{2.1} & & & & \\
+    \bottomrule
+  \end{xltabular}
+
+
+\begin{xltabular}{\linewidth}{l r r r r r r r r r r}
+    \caption{Energy metrics by test smell. Subscripts indicate original (OR) and refactored (RF) versions, and \( \mu \) and \( \sigma \) denote mean and standard deviation, respectively. Bold values indicate statistical significance (\( p < 0.05 \)) or large effects (\( d > 0.8 \)). Summary rows report cumulative averages for means, pooled standard deviations for variances, and medians for percentage changes.}\label{tab:energy} \\[10pt]
+    \toprule
+     & & \multicolumn{4}{c}{Energy (J)} & \multicolumn{2}{c}{Welch's \(t\)-test} & \multicolumn{3}{c}{Effect size} \\
+    \cmidrule(lr){3-6} \cmidrule(lr){7-8} \cmidrule(lr){9-11}
+    \textbf{Test smell} & \textbf{Instance} & \( \mu_{\OR} \) & \( \sigma_{\OR} \) & \( \mu_{\RF} \) & \( \sigma_{\RF} \) & \( t \) & \( p \) & \( \Delta \mu \) & \( \Delta \% \) & \( d \) \\
+    \midrule
+    Conditional test logic & 28 & 417.76 & 2.17 & 418.64 & 2.48 & -1.460 & 0.150 & 0.88 & 0.21 & 0.38 \\
+     & 29 & 384.18 & 3.18 & 386.44 & 4.10 & -2.319 & \textbf{0.024} & 2.26 & 0.59 & 0.62 \\
+     & 32 & 417.49 & 1.86 & 417.13 & 2.39 & 0.636 & 0.528 & -0.36 & -0.09 & -0.17 \\
+    \textbf{Total} & & \textbf{406.48} & \textbf{2.47} & \textbf{407.41} & \textbf{3.09} & & & \textbf{0.93} & \textbf{0.21} & \\
+  \midrule
+    Eager test & 18 & 522.25 & 2.46 & 525.54 & 2.04 & -5.521 & \textbf{< 0.001} & 3.29 & 0.63 & \textbf{1.46} \\
+     & 19 & 522.61 & 3.28 & 526.32 & 2.46 & -4.920 & \textbf{< 0.001} & 3.71 & 0.71 & \textbf{1.28} \\
+     & 20 & 609.39 & 5.03 & 613.44 & 4.01 & -3.453 & \textbf{0.001} & 4.05 & 0.67 & \textbf{0.89} \\
+     & 22 & 429.75 & 2.35 & 433.86 & 2.09 & -6.992 & \textbf{< 0.001} & 4.11 & 0.96 & \textbf{1.85} \\
+     & 31 & 388.04 & 2.51 & 388.99 & 2.38 & -1.487 & 0.143 & 0.95 & 0.24 & 0.39 \\
+     & 35 & 432.58 & 1.93 & 433.38 & 2.06 & -1.509 & 0.137 & 0.80 & 0.18 & 0.40 \\
+    \textbf{Total} & & \textbf{484.10} & \textbf{3.10} & \textbf{486.92} & \textbf{2.60} & & & \textbf{2.82} & \textbf{0.65} & \\
+  \midrule
+    Empty test & 24 & 380.83 & 1.79 & 378.57 & 2.65 & 3.841 & \textbf{< 0.001} & -2.25 & -0.59 & \textbf{-0.99} \\
+    \textbf{Total} & & \textbf{380.83} & \textbf{1.79} & \textbf{378.57} & \textbf{2.65} & & & \textbf{-2.25} & \textbf{-0.59} & \\
+  \midrule
+    Empty test (fixtures) & 11 & 322.49 & 3.58 & 324.06 & 4.90 & -1.414 & 0.163 & 1.57 & 0.49 & 0.37 \\
+     & 12 & 332.65 & 3.79 & 333.13 & 3.78 & -0.484 & 0.630 & 0.47 & 0.14 & 0.12 \\
+     & 14 & 426.80 & 2.50 & 425.57 & 2.70 & 1.816 & 0.075 & -1.23 & -0.29 & -0.47 \\
+    \textbf{Total} & & \textbf{360.65} & \textbf{3.34} & \textbf{360.92} & \textbf{3.90} & & & \textbf{0.27} & \textbf{0.14} & \\
+  \midrule
+    General fixture & 1 & 593.34 & 7.14 & 586.40 & 8.60 & 3.331 & \textbf{0.002} & -6.94 & -1.17 & \textbf{-0.88} \\
+     & 9 & 385.91 & 4.26 & 385.07 & 4.25 & 0.762 & 0.449 & -0.84 & -0.22 & -0.20 \\
+     & 10 & 339.05 & 3.83 & 340.08 & 3.97 & -1.026 & 0.309 & 1.03 & 0.30 & 0.27 \\
+     & 26 & 520.04 & 2.80 & 519.48 & 3.65 & 0.671 & 0.505 & -0.56 & -0.11 & -0.17 \\
+     & 27 & 436.21 & 1.87 & 437.73 & 2.04 & -2.993 & \textbf{0.004} & 1.52 & 0.35 & 0.78 \\
+    \textbf{Total} & & \textbf{454.91} & \textbf{4.36} & \textbf{453.75} & \textbf{5.00} & & & \textbf{-1.16} & \textbf{-0.11} & \\
+  \midrule
+    Ignored test & 4 & 469.75 & 3.94 & 357.69 & 3.81 & 107.167 & \textbf{< 0.001} & -112.06 & \textbf{-23.86} & \textbf{-28.89} \\
+     & 5 & 393.28 & 4.81 & 345.89 & 2.04 & 48.696 & \textbf{< 0.001} & -47.39 & \textbf{-12.05} & \textbf{-12.74} \\
+     & 6 & 656.72 & 4.80 & 412.90 & 2.51 & 246.558 & \textbf{< 0.001} & -243.82 & \textbf{-37.13} & \textbf{-63.66} \\
+     & 7 & 491.62 & 2.90 & 413.45 & 2.55 & 110.168 & \textbf{< 0.001} & -78.18 & \textbf{-15.90} & \textbf{-28.63} \\
+     & 8 & 450.20 & 2.32 & 412.56 & 1.70 & 70.813 & \textbf{< 0.001} & -37.64 & \textbf{-8.36} & \textbf{-18.54} \\
+    \textbf{Total} & & \textbf{492.31} & \textbf{3.89} & \textbf{388.50} & \textbf{2.62} & & & \textbf{-103.82} & \textbf{-15.90} & \\
+  \midrule
+    Lazy test (JUnit~4) & 17 & 474.09 & 2.53 & 467.73 & 2.42 & 9.875 & \textbf{< 0.001} & -6.36 & -1.34 & \textbf{-2.57} \\
+     & 21 & 560.41 & 2.14 & 556.80 & 4.49 & 3.919 & \textbf{< 0.001} & -3.61 & -0.64 & \textbf{-1.03} \\
+     & 23 & 364.63 & 3.46 & 366.56 & 2.57 & -2.426 & \textbf{0.019} & 1.93 & 0.53 & 0.63 \\
+     & 30 & 327.00 & 4.01 & 322.74 & 3.41 & 4.431 & \textbf{< 0.001} & -4.26 & -1.30 & \textbf{-1.14} \\
+     & 39 & 419.08 & 2.01 & 412.17 & 2.00 & 13.253 & \textbf{< 0.001} & -6.92 & -1.65 & \textbf{-3.45} \\
+     & 40 & 393.87 & 2.05 & 393.61 & 1.73 & 0.522 & 0.604 & -0.26 & -0.07 & -0.14 \\
+    \textbf{Total} & & \textbf{423.18} & \textbf{2.81} & \textbf{419.94} & \textbf{2.92} & & & \textbf{-3.24} & \textbf{-0.97} & \\
+  \midrule
+    Lazy test (JUnit~5) & 3 & 360.50 & 9.45 & 585.00 & 20.72 & -53.985 & \textbf{< 0.001} & 224.50 & \textbf{62.27} & \textbf{13.94} \\
+     & 33 & 366.90 & 3.88 & 392.58 & 3.87 & -25.656 & \textbf{< 0.001} & 25.68 & \textbf{7.00} & \textbf{6.62} \\
+     & 34 & 369.61 & 3.08 & 449.06 & 4.05 & -84.164 & \textbf{< 0.001} & 79.45 & \textbf{21.50} & \textbf{22.10} \\
+     & 36 & 417.45 & 1.73 & 485.08 & 1.96 & -140.603 & \textbf{< 0.001} & 67.63 & \textbf{16.20} & \textbf{36.54} \\
+     & 37 & 444.57 & 2.26 & 532.96 & 3.94 & -103.787 & \textbf{< 0.001} & 88.38 & \textbf{19.88} & \textbf{27.76} \\
+    \textbf{Total} & & \textbf{391.81} & \textbf{4.94} & \textbf{488.94} & \textbf{9.80} & & & \textbf{97.13} & \textbf{19.88} & \\
+  \midrule
+    Redundant print & 25 & 396.21 & 3.75 & 395.53 & 2.21 & 0.843 & 0.404 & -0.68 & -0.17 & -0.22 \\
+    \textbf{Total} & & \textbf{396.21} & \textbf{3.75} & \textbf{395.53} & \textbf{2.21} & & & \textbf{-0.68} & \textbf{-0.17} & \\
+  \midrule
+    Unknown test & 2 & 303.47 & 8.76 & 304.69 & 8.34 & -0.547 & 0.587 & 1.23 & 0.40 & 0.14 \\
+     & 13 & 393.02 & 1.80 & 393.10 & 2.05 & -0.156 & 0.877 & 0.08 & 0.02 & 0.04 \\
+     & 15 & 329.12 & 4.34 & 329.32 & 5.17 & -0.157 & 0.876 & 0.20 & 0.06 & 0.04 \\
+     & 16 & 397.07 & 2.16 & 396.41 & 2.24 & 1.130 & 0.264 & -0.66 & -0.17 & -0.30 \\
+     & 38 & 422.26 & 2.65 & 421.57 & 2.47 & 1.037 & 0.304 & -0.69 & -0.16 & -0.27 \\
+    \textbf{Total} & & \textbf{368.99} & \textbf{4.70} & \textbf{369.02} & \textbf{4.73} & & & \textbf{0.03} & \textbf{0.02} & \\
+    \midrule
+    \textbf{All instances} & & \textbf{426.55} & \textbf{3.80} & \textbf{425.53} & \textbf{4.82} & & & \textbf{-1.02} & \textbf{0.04} & \\
+    \bottomrule
+  \end{xltabular}
+
+
+\begin{xltabular}{\linewidth}{l r r r r r r r r r r r r r}
+    \caption{Coverage and mutation metrics by test smell. Read \( OR \) and \( RF \) as original and refactored samples, and \( \Delta = RF - OR \). Rows with changes between original and refactored versions (\( \Delta \neq 0 \)) are marked in black, and unchanged rows are marked in grey.}\label{tab:coverage} \\[10pt]
+    \toprule
+     & & \multicolumn{4}{c}{Branches} & \multicolumn{2}{c}{Code coverage} & \multicolumn{4}{c}{Mutants} & \multicolumn{2}{c}{Mutation score} \\
+    \cmidrule(lr){3-6} \cmidrule(lr){7-8} \cmidrule(lr){9-12} \cmidrule(lr){13-14}
+    \textbf{Test smell} & \textbf{Instance} & OR & RF & \( \Delta \) & Total & OR & RF & OR & RF & \( \Delta \) & Total & OR & RF \\
+    \midrule
+    \textcolor{black}{Conditional test logic} & \textcolor{black}{28} & \textcolor{black}{201} & \textcolor{black}{214} & \textcolor{black}{+13} & \textcolor{black}{2,724} & \textcolor{black}{0.074} & \textcolor{black}{0.079} & \textcolor{black}{14} & \textcolor{black}{14} & \textcolor{black}{0} & \textcolor{black}{117} & \textcolor{black}{0.120} & \textcolor{black}{0.120} \\
+     & \textcolor{muted}{29} & \textcolor{muted}{80} & \textcolor{muted}{80} & \textcolor{muted}{0} & \textcolor{muted}{2,724} & \textcolor{muted}{0.029} & \textcolor{muted}{0.029} & \textcolor{muted}{52} & \textcolor{muted}{52} & \textcolor{muted}{0} & \textcolor{muted}{109} & \textcolor{muted}{0.477} & \textcolor{muted}{0.477} \\
+     & \textcolor{black}{32} & \textcolor{black}{217} & \textcolor{black}{221} & \textcolor{black}{+4} & \textcolor{black}{2,724} & \textcolor{black}{0.080} & \textcolor{black}{0.081} & \textcolor{black}{16} & \textcolor{black}{16} & \textcolor{black}{0} & \textcolor{black}{117} & \textcolor{black}{0.137} & \textcolor{black}{0.137} \\
+    \textbf{Total} & & \textbf{498} & \textbf{515} & \textbf{+17} & \textbf{8,172} & \textbf{0.061} & \textbf{0.063} & \textbf{82} & \textbf{82} & \textbf{0} & \textbf{343} & \textbf{0.244} & \textbf{0.244} \\
+  \midrule
+    \textcolor{muted}{Eager test} & \textcolor{muted}{18} & \textcolor{muted}{501} & \textcolor{muted}{501} & \textcolor{muted}{0} & \textcolor{muted}{6,678} & \textcolor{muted}{0.075} & \textcolor{muted}{0.075} & \textcolor{muted}{0} & \textcolor{muted}{0} & \textcolor{muted}{0} & \textcolor{muted}{0} & \textcolor{muted}{0.000} & \textcolor{muted}{0.000} \\
+     & \textcolor{muted}{19} & \textcolor{muted}{501} & \textcolor{muted}{501} & \textcolor{muted}{0} & \textcolor{muted}{6,678} & \textcolor{muted}{0.075} & \textcolor{muted}{0.075} & \textcolor{muted}{39} & \textcolor{muted}{39} & \textcolor{muted}{0} & \textcolor{muted}{42} & \textcolor{muted}{0.929} & \textcolor{muted}{0.929} \\
+     & \textcolor{muted}{20} & \textcolor{muted}{537} & \textcolor{muted}{537} & \textcolor{muted}{0} & \textcolor{muted}{6,678} & \textcolor{muted}{0.080} & \textcolor{muted}{0.080} & \textcolor{muted}{11} & \textcolor{muted}{11} & \textcolor{muted}{0} & \textcolor{muted}{25} & \textcolor{muted}{0.440} & \textcolor{muted}{0.440} \\
+     & \textcolor{muted}{22} & \textcolor{muted}{718} & \textcolor{muted}{718} & \textcolor{muted}{0} & \textcolor{muted}{6,678} & \textcolor{muted}{0.108} & \textcolor{muted}{0.108} & \textcolor{muted}{6} & \textcolor{muted}{6} & \textcolor{muted}{0} & \textcolor{muted}{117} & \textcolor{muted}{0.051} & \textcolor{muted}{0.051} \\
+     & \textcolor{muted}{31} & \textcolor{muted}{97} & \textcolor{muted}{97} & \textcolor{muted}{0} & \textcolor{muted}{2,724} & \textcolor{muted}{0.036} & \textcolor{muted}{0.036} & \textcolor{muted}{0} & \textcolor{muted}{0} & \textcolor{muted}{0} & \textcolor{muted}{159} & \textcolor{muted}{0.000} & \textcolor{muted}{0.000} \\
+     & \textcolor{black}{35} & \textcolor{black}{412} & \textcolor{black}{413} & \textcolor{black}{+1} & \textcolor{black}{6,678} & \textcolor{black}{0.062} & \textcolor{black}{0.062} & \textcolor{black}{8} & \textcolor{black}{8} & \textcolor{black}{0} & \textcolor{black}{197} & \textcolor{black}{0.041} & \textcolor{black}{0.041} \\
+    \textbf{Total} & & \textbf{2,766} & \textbf{2,767} & \textbf{+1} & \textbf{36,114} & \textbf{0.073} & \textbf{0.073} & \textbf{64} & \textbf{64} & \textbf{0} & \textbf{540} & \textbf{0.243} & \textbf{0.243} \\
+  \midrule
+    \textcolor{muted}{Empty test} & \textcolor{muted}{24} & \textcolor{muted}{16} & \textcolor{muted}{16} & \textcolor{muted}{0} & \textcolor{muted}{11,746} & \textcolor{muted}{0.001} & \textcolor{muted}{0.001} & \textcolor{muted}{4} & \textcolor{muted}{4} & \textcolor{muted}{0} & \textcolor{muted}{16} & \textcolor{muted}{0.250} & \textcolor{muted}{0.250} \\
+    \textbf{Total} & & \textbf{16} & \textbf{16} & \textbf{0} & \textbf{11,746} & \textbf{0.001} & \textbf{0.001} & \textbf{4} & \textbf{4} & \textbf{0} & \textbf{16} & \textbf{0.250} & \textbf{0.250} \\
+  \midrule
+    \textcolor{muted}{Empty test (fixtures)} & \textcolor{muted}{11} & \textcolor{muted}{131} & \textcolor{muted}{131} & \textcolor{muted}{0} & \textcolor{muted}{6,678} & \textcolor{muted}{0.020} & \textcolor{muted}{0.020} & \textcolor{muted}{7} & \textcolor{muted}{7} & \textcolor{muted}{0} & \textcolor{muted}{7} & \textcolor{muted}{1.000} & \textcolor{muted}{1.000} \\
+     & \textcolor{muted}{12} & \textcolor{muted}{373} & \textcolor{muted}{373} & \textcolor{muted}{0} & \textcolor{muted}{6,678} & \textcolor{muted}{0.056} & \textcolor{muted}{0.056} & \textcolor{muted}{12} & \textcolor{muted}{12} & \textcolor{muted}{0} & \textcolor{muted}{71} & \textcolor{muted}{0.169} & \textcolor{muted}{0.169} \\
+     & \textcolor{muted}{14} & \textcolor{muted}{535} & \textcolor{muted}{535} & \textcolor{muted}{0} & \textcolor{muted}{6,678} & \textcolor{muted}{0.080} & \textcolor{muted}{0.080} & \textcolor{muted}{0} & \textcolor{muted}{0} & \textcolor{muted}{0} & \textcolor{muted}{150} & \textcolor{muted}{0.000} & \textcolor{muted}{0.000} \\
+    \textbf{Total} & & \textbf{1,039} & \textbf{1,039} & \textbf{0} & \textbf{20,034} & \textbf{0.052} & \textbf{0.052} & \textbf{19} & \textbf{19} & \textbf{0} & \textbf{228} & \textbf{0.390} & \textbf{0.390} \\
+  \midrule
+    \textcolor{muted}{General fixture} & \textcolor{muted}{1} & \textcolor{muted}{425} & \textcolor{muted}{425} & \textcolor{muted}{0} & \textcolor{muted}{9,687} & \textcolor{muted}{0.044} & \textcolor{muted}{0.044} & \textcolor{muted}{130} & \textcolor{muted}{130} & \textcolor{muted}{0} & \textcolor{muted}{142} & \textcolor{muted}{0.915} & \textcolor{muted}{0.915} \\
+     & \textcolor{muted}{9} & \textcolor{muted}{813} & \textcolor{muted}{813} & \textcolor{muted}{0} & \textcolor{muted}{6,678} & \textcolor{muted}{0.122} & \textcolor{muted}{0.122} & \textcolor{muted}{43} & \textcolor{muted}{43} & \textcolor{muted}{0} & \textcolor{muted}{46} & \textcolor{muted}{0.935} & \textcolor{muted}{0.935} \\
+     & \textcolor{muted}{10} & \textcolor{muted}{330} & \textcolor{muted}{330} & \textcolor{muted}{0} & \textcolor{muted}{6,678} & \textcolor{muted}{0.049} & \textcolor{muted}{0.049} & \textcolor{muted}{3} & \textcolor{muted}{3} & \textcolor{muted}{0} & \textcolor{muted}{3} & \textcolor{muted}{1.000} & \textcolor{muted}{1.000} \\
+     & \textcolor{muted}{26} & \textcolor{muted}{235} & \textcolor{muted}{235} & \textcolor{muted}{0} & \textcolor{muted}{2,724} & \textcolor{muted}{0.086} & \textcolor{muted}{0.086} & \textcolor{muted}{8} & \textcolor{muted}{8} & \textcolor{muted}{0} & \textcolor{muted}{13} & \textcolor{muted}{0.615} & \textcolor{muted}{0.615} \\
+     & \textcolor{muted}{27} & \textcolor{muted}{475} & \textcolor{muted}{475} & \textcolor{muted}{0} & \textcolor{muted}{2,724} & \textcolor{muted}{0.174} & \textcolor{muted}{0.174} & \textcolor{muted}{41} & \textcolor{muted}{41} & \textcolor{muted}{0} & \textcolor{muted}{117} & \textcolor{muted}{0.350} & \textcolor{muted}{0.350} \\
+    \textbf{Total} & & \textbf{2,278} & \textbf{2,278} & \textbf{0} & \textbf{28,491} & \textbf{0.095} & \textbf{0.095} & \textbf{225} & \textbf{225} & \textbf{0} & \textbf{321} & \textbf{0.763} & \textbf{0.763} \\
+  \midrule
+    \textcolor{muted}{Ignored test} & \textcolor{muted}{4} & \textcolor{muted}{8} & \textcolor{muted}{8} & \textcolor{muted}{0} & \textcolor{muted}{9,687} & \textcolor{muted}{0.001} & \textcolor{muted}{0.001} & \textcolor{muted}{0} & \textcolor{muted}{0} & \textcolor{muted}{0} & \textcolor{muted}{142} & \textcolor{muted}{0.000} & \textcolor{muted}{0.000} \\
+     & \textcolor{muted}{5} & \textcolor{muted}{7} & \textcolor{muted}{7} & \textcolor{muted}{0} & \textcolor{muted}{9,687} & \textcolor{muted}{0.001} & \textcolor{muted}{0.001} & \textcolor{muted}{0} & \textcolor{muted}{0} & \textcolor{muted}{0} & \textcolor{muted}{142} & \textcolor{muted}{0.000} & \textcolor{muted}{0.000} \\
+     & \textcolor{muted}{6} & \textcolor{muted}{0} & \textcolor{muted}{0} & \textcolor{muted}{0} & \textcolor{muted}{9,687} & \textcolor{muted}{0.000} & \textcolor{muted}{0.000} & \textcolor{muted}{0} & \textcolor{muted}{0} & \textcolor{muted}{0} & \textcolor{muted}{142} & \textcolor{muted}{0.000} & \textcolor{muted}{0.000} \\
+     & \textcolor{muted}{7} & \textcolor{muted}{0} & \textcolor{muted}{0} & \textcolor{muted}{0} & \textcolor{muted}{9,687} & \textcolor{muted}{0.000} & \textcolor{muted}{0.000} & \textcolor{muted}{0} & \textcolor{muted}{0} & \textcolor{muted}{0} & \textcolor{muted}{142} & \textcolor{muted}{0.000} & \textcolor{muted}{0.000} \\
+     & \textcolor{muted}{8} & \textcolor{muted}{0} & \textcolor{muted}{0} & \textcolor{muted}{0} & \textcolor{muted}{9,687} & \textcolor{muted}{0.000} & \textcolor{muted}{0.000} & \textcolor{muted}{0} & \textcolor{muted}{0} & \textcolor{muted}{0} & \textcolor{muted}{142} & \textcolor{muted}{0.000} & \textcolor{muted}{0.000} \\
+    \textbf{Total} & & \textbf{15} & \textbf{15} & \textbf{0} & \textbf{48,435} & \textbf{0.000} & \textbf{0.000} & \textbf{0} & \textbf{0} & \textbf{0} & \textbf{710} & \textbf{0.000} & \textbf{0.000} \\
+  \midrule
+    \textcolor{black}{Lazy test (JUnit~4)} & \textcolor{black}{17} & \textcolor{black}{750} & \textcolor{black}{751} & \textcolor{black}{+1} & \textcolor{black}{6,678} & \textcolor{black}{0.112} & \textcolor{black}{0.112} & \textcolor{black}{55} & \textcolor{black}{58} & \textcolor{black}{+3} & \textcolor{black}{381} & \textcolor{black}{0.144} & \textcolor{black}{0.152} \\
+     & \textcolor{muted}{21} & \textcolor{muted}{617} & \textcolor{muted}{617} & \textcolor{muted}{0} & \textcolor{muted}{6,678} & \textcolor{muted}{0.092} & \textcolor{muted}{0.092} & \textcolor{muted}{14} & \textcolor{muted}{14} & \textcolor{muted}{0} & \textcolor{muted}{264} & \textcolor{muted}{0.053} & \textcolor{muted}{0.053} \\
+     & \textcolor{muted}{23} & \textcolor{muted}{413} & \textcolor{muted}{413} & \textcolor{muted}{0} & \textcolor{muted}{6,678} & \textcolor{muted}{0.062} & \textcolor{muted}{0.062} & \textcolor{muted}{8} & \textcolor{muted}{8} & \textcolor{muted}{0} & \textcolor{muted}{197} & \textcolor{muted}{0.041} & \textcolor{muted}{0.041} \\
+     & \textcolor{muted}{30} & \textcolor{muted}{35} & \textcolor{muted}{35} & \textcolor{muted}{0} & \textcolor{muted}{2,724} & \textcolor{muted}{0.013} & \textcolor{muted}{0.013} & \textcolor{muted}{18} & \textcolor{muted}{18} & \textcolor{muted}{0} & \textcolor{muted}{86} & \textcolor{muted}{0.209} & \textcolor{muted}{0.209} \\
+     & \textcolor{muted}{39} & \textcolor{muted}{22} & \textcolor{muted}{22} & \textcolor{muted}{0} & \textcolor{muted}{9,687} & \textcolor{muted}{0.002} & \textcolor{muted}{0.002} & \textcolor{muted}{21} & \textcolor{muted}{21} & \textcolor{muted}{0} & \textcolor{muted}{1,862} & \textcolor{muted}{0.011} & \textcolor{muted}{0.011} \\
+     & \textcolor{muted}{40} & \textcolor{muted}{385} & \textcolor{muted}{385} & \textcolor{muted}{0} & \textcolor{muted}{6,678} & \textcolor{muted}{0.058} & \textcolor{muted}{0.058} & \textcolor{muted}{14} & \textcolor{muted}{14} & \textcolor{muted}{0} & \textcolor{muted}{381} & \textcolor{muted}{0.037} & \textcolor{muted}{0.037} \\
+    \textbf{Total} & & \textbf{2,222} & \textbf{2,223} & \textbf{+1} & \textbf{39,123} & \textbf{0.057} & \textbf{0.057} & \textbf{130} & \textbf{133} & \textbf{+3} & \textbf{3,171} & \textbf{0.083} & \textbf{0.084} \\
+  \midrule
+    \textcolor{muted}{Lazy test (JUnit~5)} & \textcolor{muted}{3} & \textcolor{muted}{302} & \textcolor{muted}{302} & \textcolor{muted}{0} & \textcolor{muted}{9,687} & \textcolor{muted}{0.031} & \textcolor{muted}{0.031} & \textcolor{muted}{0} & \textcolor{muted}{0} & \textcolor{muted}{0} & \textcolor{muted}{142} & \textcolor{muted}{0.000} & \textcolor{muted}{0.000} \\
+     & \textcolor{muted}{33} & \textcolor{muted}{16} & \textcolor{muted}{16} & \textcolor{muted}{0} & \textcolor{muted}{9,687} & \textcolor{muted}{0.002} & \textcolor{muted}{0.002} & \textcolor{muted}{8} & \textcolor{muted}{8} & \textcolor{muted}{0} & \textcolor{muted}{1,862} & \textcolor{muted}{0.004} & \textcolor{muted}{0.004} \\
+     & \textcolor{muted}{34} & \textcolor{muted}{76} & \textcolor{muted}{76} & \textcolor{muted}{0} & \textcolor{muted}{9,687} & \textcolor{muted}{0.008} & \textcolor{muted}{0.008} & \textcolor{muted}{83} & \textcolor{muted}{83} & \textcolor{muted}{0} & \textcolor{muted}{1,862} & \textcolor{muted}{0.045} & \textcolor{muted}{0.045} \\
+     & \textcolor{muted}{36} & \textcolor{muted}{61} & \textcolor{muted}{61} & \textcolor{muted}{0} & \textcolor{muted}{9,687} & \textcolor{muted}{0.006} & \textcolor{muted}{0.006} & \textcolor{muted}{67} & \textcolor{muted}{67} & \textcolor{muted}{0} & \textcolor{muted}{1,862} & \textcolor{muted}{0.036} & \textcolor{muted}{0.036} \\
+     & \textcolor{muted}{37} & \textcolor{muted}{54} & \textcolor{muted}{54} & \textcolor{muted}{0} & \textcolor{muted}{9,687} & \textcolor{muted}{0.006} & \textcolor{muted}{0.006} & \textcolor{muted}{63} & \textcolor{muted}{63} & \textcolor{muted}{0} & \textcolor{muted}{1,862} & \textcolor{muted}{0.034} & \textcolor{muted}{0.034} \\
+    \textbf{Total} & & \textbf{509} & \textbf{509} & \textbf{0} & \textbf{48,435} & \textbf{0.011} & \textbf{0.011} & \textbf{221} & \textbf{221} & \textbf{0} & \textbf{7,590} & \textbf{0.024} & \textbf{0.024} \\
+  \midrule
+    \textcolor{muted}{Redundant print} & \textcolor{muted}{25} & \textcolor{muted}{30} & \textcolor{muted}{30} & \textcolor{muted}{0} & \textcolor{muted}{11,746} & \textcolor{muted}{0.003} & \textcolor{muted}{0.003} & \textcolor{muted}{32} & \textcolor{muted}{32} & \textcolor{muted}{0} & \textcolor{muted}{92} & \textcolor{muted}{0.348} & \textcolor{muted}{0.348} \\
+    \textbf{Total} & & \textbf{30} & \textbf{30} & \textbf{0} & \textbf{11,746} & \textbf{0.003} & \textbf{0.003} & \textbf{32} & \textbf{32} & \textbf{0} & \textbf{92} & \textbf{0.348} & \textbf{0.348} \\
+  \midrule
+    \textcolor{muted}{Unknown test} & \textcolor{muted}{2} & \textcolor{muted}{0} & \textcolor{muted}{0} & \textcolor{muted}{0} & \textcolor{muted}{9,687} & \textcolor{muted}{0.000} & \textcolor{muted}{0.000} & \textcolor{muted}{0} & \textcolor{muted}{0} & \textcolor{muted}{0} & \textcolor{muted}{142} & \textcolor{muted}{0.000} & \textcolor{muted}{0.000} \\
+     & \textcolor{muted}{13} & \textcolor{muted}{0} & \textcolor{muted}{0} & \textcolor{muted}{0} & \textcolor{muted}{6,678} & \textcolor{muted}{0.000} & \textcolor{muted}{0.000} & \textcolor{muted}{0} & \textcolor{muted}{0} & \textcolor{muted}{0} & \textcolor{muted}{0} & \textcolor{muted}{0.000} & \textcolor{muted}{0.000} \\
+     & \textcolor{black}{15} & \textcolor{black}{192} & \textcolor{black}{204} & \textcolor{black}{+12} & \textcolor{black}{6,678} & \textcolor{black}{0.029} & \textcolor{black}{0.031} & \textcolor{black}{0} & \textcolor{black}{0} & \textcolor{black}{0} & \textcolor{black}{150} & \textcolor{black}{0.000} & \textcolor{black}{0.000} \\
+     & \textcolor{muted}{16} & \textcolor{muted}{20} & \textcolor{muted}{20} & \textcolor{muted}{0} & \textcolor{muted}{6,678} & \textcolor{muted}{0.003} & \textcolor{muted}{0.003} & \textcolor{muted}{5} & \textcolor{muted}{5} & \textcolor{muted}{0} & \textcolor{muted}{182} & \textcolor{muted}{0.027} & \textcolor{muted}{0.027} \\
+     & \textcolor{black}{38} & \textcolor{black}{488} & \textcolor{black}{488} & \textcolor{black}{0} & \textcolor{black}{6,678} & \textcolor{black}{0.073} & \textcolor{black}{0.073} & \textcolor{black}{25} & \textcolor{black}{28} & \textcolor{black}{+3} & \textcolor{black}{221} & \textcolor{black}{0.113} & \textcolor{black}{0.127} \\
+    \textbf{Total} & & \textbf{700} & \textbf{712} & \textbf{+12} & \textbf{36,399} & \textbf{0.021} & \textbf{0.021} & \textbf{30} & \textbf{33} & \textbf{+3} & \textbf{695} & \textbf{0.028} & \textbf{0.031} \\
+    \midrule
+    \textbf{All instances} & & \textbf{10,073} & \textbf{10,104} & \textbf{+31} & \textbf{288,695} & \textbf{0.044} & \textbf{0.044} & \textbf{807} & \textbf{813} & \textbf{+6} & \textbf{13,706} & \textbf{0.213} & \textbf{0.214} \\
+    \bottomrule
+  \end{xltabular}
+
+
+\begin{xltabular}{\linewidth}{l r r r r r r r r r}
+    \caption{Quality metrics by test smell. Read \( OR \) and \( RF \) as original and refactored samples, and \( \Delta = RF - OR \).}\label{tab:quality} \\[10pt]
+    \toprule
+     & & \multicolumn{3}{c}{Unit size (LOC)} & \multicolumn{3}{c}{Assertions} & \multicolumn{2}{c}{Assertion density} \\
+    \cmidrule(lr){3-5} \cmidrule(lr){6-8} \cmidrule(lr){9-10}
+    \textbf{Test smell} & \textbf{Instance} & OR & RF & \( \Delta \) & OR & RF & \( \Delta \) & OR & RF \\
+    \midrule
+    Conditional test logic & 28 & 32 & 20 & -12 & 1 & 1 & 0 & 0.03 & 0.05 \\
+     & 29 & 17 & 25 & +8 & 2 & 4 & +2 & 0.12 & 0.16 \\
+     & 32 & 33 & 27 & -6 & 1 & 3 & +2 & 0.03 & 0.11 \\
+    \textbf{Total} & & \textbf{82} & \textbf{72} & \textbf{-10} & \textbf{4} & \textbf{8} & \textbf{+4} & \textbf{0.06} & \textbf{0.11} \\
+  \midrule
+    Eager test & 18 & 313 & 374 & +61 & 231 & 231 & 0 & 0.74 & 0.62 \\
+     & 19 & 329 & 390 & +61 & 239 & 239 & 0 & 0.73 & 0.61 \\
+     & 20 & 318 & 347 & +29 & 188 & 188 & 0 & 0.59 & 0.54 \\
+     & 22 & 280 & 194 & -86 & 43 & 62 & +19 & 0.15 & 0.32 \\
+     & 31 & 58 & 82 & +24 & 14 & 14 & 0 & 0.24 & 0.17 \\
+     & 35 & 363 & 405 & +42 & 332 & 332 & 0 & 0.91 & 0.82 \\
+    \textbf{Total} & & \textbf{1,661} & \textbf{1,792} & \textbf{+131} & \textbf{1,047} & \textbf{1,066} & \textbf{+19} & \textbf{0.56} & \textbf{0.51} \\
+  \midrule
+    Empty test & 24 & 14 & 8 & -6 & 1 & 1 & 0 & 0.07 & 0.12 \\
+    \textbf{Total} & & \textbf{14} & \textbf{8} & \textbf{-6} & \textbf{1} & \textbf{1} & \textbf{0} & \textbf{0.07} & \textbf{0.12} \\
+  \midrule
+    Empty test (fixtures) & 11 & 35 & 29 & -6 & 5 & 5 & 0 & 0.14 & 0.17 \\
+     & 12 & 63 & 57 & -6 & 7 & 7 & 0 & 0.11 & 0.12 \\
+     & 14 & 151 & 145 & -6 & 24 & 24 & 0 & 0.16 & 0.17 \\
+    \textbf{Total} & & \textbf{249} & \textbf{231} & \textbf{-18} & \textbf{36} & \textbf{36} & \textbf{0} & \textbf{0.14} & \textbf{0.15} \\
+  \midrule
+    General fixture & 1 & 1,187 & 1,198 & +11 & 324 & 324 & 0 & 0.27 & 0.27 \\
+     & 9 & 828 & 918 & +90 & 172 & 172 & 0 & 0.21 & 0.19 \\
+     & 10 & 65 & 64 & -1 & 18 & 18 & 0 & 0.28 & 0.28 \\
+     & 26 & 176 & 197 & +21 & 40 & 40 & 0 & 0.23 & 0.20 \\
+     & 27 & 157 & 156 & -1 & 26 & 26 & 0 & 0.17 & 0.17 \\
+    \textbf{Total} & & \textbf{2,413} & \textbf{2,533} & \textbf{+120} & \textbf{580} & \textbf{580} & \textbf{0} & \textbf{0.23} & \textbf{0.22} \\
+  \midrule
+    Ignored test & 4 & 2,672 & 88 & -2,584 & 11 & 11 & 0 & 0.00 & 0.12 \\
+     & 5 & 791 & 79 & -712 & 1 & 1 & 0 & 0.00 & 0.01 \\
+     & 6 & 6,707 & 39 & -6,668 & 13 & 13 & 0 & 0.00 & 0.33 \\
+     & 7 & 1,041 & 11 & -1,030 & 3 & 3 & 0 & 0.00 & 0.27 \\
+     & 8 & 597 & 45 & -552 & 1 & 0 & -1 & 0.00 & 0.00 \\
+    \textbf{Total} & & \textbf{11,808} & \textbf{262} & \textbf{-11,546} & \textbf{29} & \textbf{28} & \textbf{-1} & \textbf{0.00} & \textbf{0.15} \\
+  \midrule
+    Lazy test (JUnit~4) & 17 & 289 & 96 & -193 & 81 & 3 & -78 & 0.28 & 0.03 \\
+     & 21 & 224 & 88 & -136 & 54 & 3 & -51 & 0.24 & 0.03 \\
+     & 23 & 405 & 527 & +122 & 332 & 18 & -314 & 0.82 & 0.03 \\
+     & 30 & 98 & 29 & -69 & 26 & 16 & -10 & 0.27 & 0.55 \\
+     & 39 & 1,544 & 92 & -1,452 & 1,440 & 12 & -1,428 & 0.93 & 0.13 \\
+     & 40 & 95 & 85 & -10 & 22 & 2 & -20 & 0.23 & 0.02 \\
+    \textbf{Total} & & \textbf{2,655} & \textbf{917} & \textbf{-1,738} & \textbf{1,955} & \textbf{54} & \textbf{-1,901} & \textbf{0.46} & \textbf{0.13} \\
+  \midrule
+    Lazy test (JUnit~5) & 3 & 1,024 & 1,183 & +159 & 502 & 63 & -439 & 0.49 & 0.05 \\
+     & 33 & 66 & 24 & -42 & 24 & 3 & -21 & 0.36 & 0.12 \\
+     & 34 & 104 & 68 & -36 & 53 & 1 & -52 & 0.51 & 0.01 \\
+     & 36 & 101 & 53 & -48 & 36 & 1 & -35 & 0.36 & 0.02 \\
+     & 37 & 390 & 127 & -263 & 157 & 5 & -152 & 0.40 & 0.04 \\
+    \textbf{Total} & & \textbf{1,685} & \textbf{1,455} & \textbf{-230} & \textbf{772} & \textbf{73} & \textbf{-699} & \textbf{0.42} & \textbf{0.05} \\
+  \midrule
+    Redundant print & 25 & 150 & 123 & -27 & 31 & 31 & 0 & 0.21 & 0.25 \\
+    \textbf{Total} & & \textbf{150} & \textbf{123} & \textbf{-27} & \textbf{31} & \textbf{31} & \textbf{0} & \textbf{0.21} & \textbf{0.25} \\
+  \midrule
+    Unknown test & 2 & 266 & 283 & +17 & 0 & 19 & +19 & 0.00 & 0.07 \\
+     & 13 & 34 & 36 & +2 & 0 & 2 & +2 & 0.00 & 0.06 \\
+     & 15 & 46 & 73 & +27 & 0 & 27 & +27 & 0.00 & 0.37 \\
+     & 16 & 24 & 28 & +4 & 2 & 4 & +2 & 0.08 & 0.14 \\
+     & 38 & 49 & 54 & +5 & 0 & 4 & +4 & 0.00 & 0.07 \\
+    \textbf{Total} & & \textbf{419} & \textbf{474} & \textbf{+55} & \textbf{2} & \textbf{56} & \textbf{+54} & \textbf{0.02} & \textbf{0.14} \\
+    \midrule
+    \textbf{All instances} & & \textbf{21,136} & \textbf{7,867} & \textbf{-13,269} & \textbf{4,457} & \textbf{1,933} & \textbf{-2,524} & \textbf{0.26} & \textbf{0.20} \\
+    \bottomrule
+  \end{xltabular}
+
+
+\begin{xltabular}{\linewidth}{l r}
+    \caption{Key test smells with their median energy changes (in percent). \textit{Ignored test} and \textit{Lazy test (JUnit~5)} show the largest effects.}\label{tab:key_smells} \\[10pt]
+    \toprule
+    \textbf{Test smell} & \textbf{Energy change (\%)} \\
+    \midrule
+    \textit{Eager test} & +0.6 \\
+    \textit{General fixture} & -0.1 \\
+    \textit{Ignored test} & \textbf{-15.9} \\
+    \textit{Lazy test (JUnit~4)} & -1.0 \\
+    \textit{Lazy test (JUnit~5)} & \textbf{+19.9} \\
+
+    \bottomrule
+  \end{xltabular}
+
+
+\begin{xltabular}{\linewidth}{l r r r}
+    \caption{Median changes and correlation between energy and execution time, for each test smell. Positive values indicate increases after refactoring, negative values indicate decreases, and bold values highlight notable percentage differences (\( > 5 \% \)) and strong statistical relationships (\( \rho > 0.70 \)). Most key smells, shown in bold, show strong correlations.}\label{tab:corr_time} \\[10pt]
+    \toprule
+    \textbf{Test smell} & \textbf{Energy change (\%)} & \textbf{Time change (\%)} & \textbf{Correlation} \\
+    \midrule
+    \textit{Conditional test logic} & +0.2 & +0.1 & 0.47 \\
+    \textit{Empty test} & -0.6 & +0.0 & -0.32 \\
+    \textit{Empty test (fixtures)} & +0.1 & -0.0 & \textbf{0.86} \\
+    \textit{\textbf{Eager test}} & +0.6 & +0.0 & \textbf{0.93} \\
+    \textit{\textbf{General fixture}} & -0.1 & -0.0 & \textbf{0.90} \\
+    \textit{\textbf{Ignored test}} & \textbf{-15.9} & \textbf{-10.9} & \textbf{0.93} \\
+    \textit{\textbf{Lazy test (JUnit~4)}} & -1.0 & -0.0 & \textbf{0.78} \\
+    \textit{\textbf{Lazy test (JUnit~5)}} & \textbf{+19.9} & \textbf{+21.5} & 0.53 \\
+    \textit{Redundant print} & -0.2 & -0.1 & 0.08 \\
+    \textit{Unknown test} & +0.0 & +0.1 & -0.30 \\
+
+    \bottomrule
+  \end{xltabular}

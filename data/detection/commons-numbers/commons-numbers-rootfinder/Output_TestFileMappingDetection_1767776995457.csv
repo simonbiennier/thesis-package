@@ -1,0 +1,4 @@
+TestFilePath,ProductionFilePath
+C:\Users\simon\Documents\Code\thesis-code\commons-numbers-master\commons-numbers-rootfinder\src\test\java\org\apache\commons\numbers\rootfinder\BrentSolverTest.java,C:\Users\simon\Documents\Code\thesis-code\commons-numbers-master\commons-numbers-rootfinder\src\main\java\org\apache\commons\numbers\rootfinder\BrentSolver.java
+C:\Users\simon\Documents\Code\thesis-code\commons-numbers-master\commons-numbers-rootfinder\src\test\java\org\apache\commons\numbers\rootfinder\SolverExceptionTest.java,C:\Users\simon\Documents\Code\thesis-code\commons-numbers-master\commons-numbers-rootfinder\src\main\java\org\apache\commons\numbers\rootfinder\SolverException.java
+C:\Users\simon\Documents\Code\thesis-code\commons-numbers-master\commons-numbers-rootfinder\src\test\java\org\apache\commons\numbers\rootfinder\UserGuideTest.java,

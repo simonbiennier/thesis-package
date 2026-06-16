@@ -1,0 +1,2 @@
+FilePath,FileName,ClassName,MethodName,TotalStatements,TotalParameters,ReturnType,AccessModifier,MethodHasAnnotation,MethodHasTestInName,FileHasTestInName,ClassHasTestInName
+C:\Users\simon\Documents\Code\thesis-code\okhttp-master\okhttp-tls\src\test\java\okhttp3\tls\CertificatesJavaTest.java,CertificatesJavaTest.java,CertificatesJavaTest,testRoundtrip,3,0,void,public,true,true,true,true

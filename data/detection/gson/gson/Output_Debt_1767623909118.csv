@@ -1,0 +1,11 @@
+FilePath,FileName,ClassName,Comment
+C:\Users\simon\Documents\Code\thesis-code\gson-main\gson\src\test\java\com\google\gson\functional\DefaultTypeAdaptersTest.java,DefaultTypeAdaptersTest.java,NumberAsStringAdapter,""" TODO: b/287969247 - remove when EP bug fixed"""
+C:\Users\simon\Documents\Code\thesis-code\gson-main\gson\src\test\java\com\google\gson\functional\JsonAdapterAnnotationOnFieldsTest.java,JsonAdapterAnnotationOnFieldsTest.java,Deserializer,"""
+   * Tests usage of {@link Gson#getAdapter(TypeToken)} in the {@code create} method of the factory.
+   * Existing code was using that as workaround because {@link Gson#getDelegateAdapter} previously
+   * did not work in combination with {@code @JsonAdapter}, see
+   * https://github.com/google/gson/issues/1028.
+   """
+C:\Users\simon\Documents\Code\thesis-code\gson-main\gson\src\test\java\com\google\gson\functional\ObjectTest.java,ObjectTest.java,RecursiveClass,""" TODO: Adjust this once Gson throws more specific exception type"""
+C:\Users\simon\Documents\Code\thesis-code\gson-main\gson\src\test\java\com\google\gson\GsonBuilderTest.java,GsonBuilderTest.java,ClassWithoutNoArgsConstructor,""" TODO: Registering adapter for JsonElement is allowed (for now) for backward compatibility,"""
+C:\Users\simon\Documents\Code\thesis-code\gson-main\gson\src\test\java\com\google\gson\reflect\TypeTokenTest.java,TypeTokenTest.java,ClassSatisfyingBounds,""" TODO: This seems to differ from how Java reflection behaves; when using"""

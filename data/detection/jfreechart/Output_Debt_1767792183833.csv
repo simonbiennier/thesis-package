@@ -1,0 +1,12 @@
+FilePath,FileName,ClassName,Comment
+C:\Users\simon\Documents\Code\thesis-code\jfreechart-master\src\test\java\org\jfree\chart\annotations\XYImageAnnotationTest.java,XYImageAnnotationTest.java,XYImageAnnotationTest,""" FIXME: Make this test pass"""
+C:\Users\simon\Documents\Code\thesis-code\jfreechart-master\src\test\java\org\jfree\chart\annotations\XYImageAnnotationTest.java,XYImageAnnotationTest.java,XYImageAnnotationTest,""" FIXME: Make this test pass"""
+C:\Users\simon\Documents\Code\thesis-code\jfreechart-master\src\test\java\org\jfree\chart\GanttChartTest.java,GanttChartTest.java,LocalListener,"""FIXME we should really assert a value"""
+C:\Users\simon\Documents\Code\thesis-code\jfreechart-master\src\test\java\org\jfree\chart\MeterChartTest.java,MeterChartTest.java,MeterChartTest,"""FIXME we should really assert a value here"""
+C:\Users\simon\Documents\Code\thesis-code\jfreechart-master\src\test\java\org\jfree\chart\TestUtils.java,TestUtils.java,TestUtils,""" TODO many remaining attributes"""
+C:\Users\simon\Documents\Code\thesis-code\jfreechart-master\src\test\java\org\jfree\chart\title\ImageTitleTest.java,ImageTitleTest.java,ImageTitleTest,"""        // TODO: is there a way to do a better test?"""
+C:\Users\simon\Documents\Code\thesis-code\jfreechart-master\src\test\java\org\jfree\chart\title\ImageTitleTest.java,ImageTitleTest.java,ImageTitleTest,""" TODO: add serialization support for images"""
+C:\Users\simon\Documents\Code\thesis-code\jfreechart-master\src\test\java\org\jfree\chart\title\ImageTitleTest.java,ImageTitleTest.java,ImageTitleTest,"""        // TODO: is there a way to do a better test?"""
+C:\Users\simon\Documents\Code\thesis-code\jfreechart-master\src\test\java\org\jfree\data\time\MillisecondTest.java,MillisecondTest.java,MillisecondTest,""" TODO: this must be wrong..."""
+C:\Users\simon\Documents\Code\thesis-code\jfreechart-master\src\test\java\org\jfree\data\time\YearTest.java,YearTest.java,YearTest,""" TODO: Check this result..."""
+C:\Users\simon\Documents\Code\thesis-code\jfreechart-master\src\test\java\org\jfree\data\time\YearTest.java,YearTest.java,YearTest,""" TODO: Check this result..."""

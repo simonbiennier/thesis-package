@@ -1,0 +1,2 @@
+FilePath,FileName,ClassName,MethodName,TotalStatements,TotalParameters,ReturnType,AccessModifier,MethodHasAnnotation,MethodHasTestInName,FileHasTestInName,ClassHasTestInName
+C:\Users\simon\Documents\Code\thesis-code\okhttp-master\maven-tests\src\test\java\com\squareup\okhttp3\maventest\AppTest.java,AppTest.java,AppTest,testApp,3,0,void,public,true,true,true,true

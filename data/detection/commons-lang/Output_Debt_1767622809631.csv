@@ -1,0 +1,103 @@
+FilePath,FileName,ClassName,Comment
+C:\Users\simon\Documents\Code\thesis-code\commons-lang-master\src\test\java\org\apache\commons\lang3\AbstractLangTest.java,AbstractLangTest.java,AbstractLangTest,""" TODO Do more to make sure memory is not retained, maybe like Log4j checks for it."""
+C:\Users\simon\Documents\Code\thesis-code\commons-lang-master\src\test\java\org\apache\commons\lang3\ClassLoaderUtilsTest.java,ClassLoaderUtilsTest.java,ClassLoaderUtilsTest,""" TODO How to better test considering this test may be called from an IDE and Maven?"""
+C:\Users\simon\Documents\Code\thesis-code\commons-lang-master\src\test\java\org\apache\commons\lang3\ClassLoaderUtilsTest.java,ClassLoaderUtilsTest.java,ClassLoaderUtilsTest,""" TODO How to better test considering this test may be called from an IDE and Maven?"""
+C:\Users\simon\Documents\Code\thesis-code\commons-lang-master\src\test\java\org\apache\commons\lang3\concurrent\LazyInitializerFailableCloserTest.java,LazyInitializerFailableCloserTest.java,LazyInitializerFailableCloserTest,""" Doesn't actually throw, just for the method sig without unused warning."""
+C:\Users\simon\Documents\Code\thesis-code\commons-lang-master\src\test\java\org\apache\commons\lang3\concurrent\LazyInitializerFailableCloserTest.java,LazyInitializerFailableCloserTest.java,LazyInitializerFailableCloserTest,""" Doesn't actually throw, just for the method sig without unused warning."""
+C:\Users\simon\Documents\Code\thesis-code\commons-lang-master\src\test\java\org\apache\commons\lang3\math\NumberUtilsTest.java,NumberUtilsTest.java,NumberUtilsTest,""" TODO assertTrue(NumberUtils.isParsable( 2.f ));"""
+C:\Users\simon\Documents\Code\thesis-code\commons-lang-master\src\test\java\org\apache\commons\lang3\math\NumberUtilsTest.java,NumberUtilsTest.java,NumberUtilsTest,""" TODO assertTrue(NumberUtils.isParsable( 2.d ));"""
+C:\Users\simon\Documents\Code\thesis-code\commons-lang-master\src\test\java\org\apache\commons\lang3\math\NumberUtilsTest.java,NumberUtilsTest.java,NumberUtilsTest,""" TODO assertTrue(NumberUtils.isParsable( 1.2e-5f ));"""
+C:\Users\simon\Documents\Code\thesis-code\commons-lang-master\src\test\java\org\apache\commons\lang3\math\NumberUtilsTest.java,NumberUtilsTest.java,NumberUtilsTest,""" TODO assertTrue(NumberUtils.isParsable( 1.2e-5d ));"""
+C:\Users\simon\Documents\Code\thesis-code\commons-lang-master\src\test\java\org\apache\commons\lang3\math\NumberUtilsTest.java,NumberUtilsTest.java,NumberUtilsTest,""" TODO assertTrue(isParsableDouble( 1.f ));"""
+C:\Users\simon\Documents\Code\thesis-code\commons-lang-master\src\test\java\org\apache\commons\lang3\math\NumberUtilsTest.java,NumberUtilsTest.java,NumberUtilsTest,""" TODO assertTrue(isParsableDouble( 1.d ));"""
+C:\Users\simon\Documents\Code\thesis-code\commons-lang-master\src\test\java\org\apache\commons\lang3\math\NumberUtilsTest.java,NumberUtilsTest.java,NumberUtilsTest,""" TODO assertTrue(isParsableFloat( 1.f ));"""
+C:\Users\simon\Documents\Code\thesis-code\commons-lang-master\src\test\java\org\apache\commons\lang3\math\NumberUtilsTest.java,NumberUtilsTest.java,NumberUtilsTest,""" TODO assertTrue(isParsableFloat( 1.d ));"""
+C:\Users\simon\Documents\Code\thesis-code\commons-lang-master\src\test\java\org\apache\commons\lang3\RandomUtilsTest.java,RandomUtilsTest.java,RandomUtilsTest,""" TODO: should be <max?"""
+C:\Users\simon\Documents\Code\thesis-code\commons-lang-master\src\test\java\org\apache\commons\lang3\RandomUtilsTest.java,RandomUtilsTest.java,RandomUtilsTest,""" TODO: should be <max?"""
+C:\Users\simon\Documents\Code\thesis-code\commons-lang-master\src\test\java\org\apache\commons\lang3\RandomUtilsTest.java,RandomUtilsTest.java,RandomUtilsTest,""" TODO: should be <max?"""
+C:\Users\simon\Documents\Code\thesis-code\commons-lang-master\src\test\java\org\apache\commons\lang3\RandomUtilsTest.java,RandomUtilsTest.java,RandomUtilsTest,""" TODO: should be <max?"""
+C:\Users\simon\Documents\Code\thesis-code\commons-lang-master\src\test\java\org\apache\commons\lang3\reflect\TypeUtilsTest.java,TypeUtilsTest.java,Test2,"""
+ * Test fixture for https://issues.apache.org/jira/browse/LANG-1524
+ *
+ * @param <T> Test fixture type, unused type parameter for test.
+ """
+C:\Users\simon\Documents\Code\thesis-code\commons-lang-master\src\test\java\org\apache\commons\lang3\reflect\TypeUtilsTest.java,TypeUtilsTest.java,Test2,"""
+ * Test fixture for https://issues.apache.org/jira/browse/LANG-1524
+ *
+ * @param <T> Test fixture type, unused type parameter for test.
+ """
+C:\Users\simon\Documents\Code\thesis-code\commons-lang-master\src\test\java\org\apache\commons\lang3\reflect\TypeUtilsTest.java,TypeUtilsTest.java,Test2,"""
+     * Test fixture.
+     *
+     * @param <S> Test fixture type, unused type parameter for test.
+     """
+C:\Users\simon\Documents\Code\thesis-code\commons-lang-master\src\test\java\org\apache\commons\lang3\reflect\TypeUtilsTest.java,TypeUtilsTest.java,Test2,"""
+ * Test fixture.
+ *
+ * @param <T> Test fixture type, unused type parameter for test.
+ """
+C:\Users\simon\Documents\Code\thesis-code\commons-lang-master\src\test\java\org\apache\commons\lang3\reflect\TypeUtilsTest.java,TypeUtilsTest.java,Test2,"""
+ * Test fixture.
+ *
+ * @param <T> Test fixture type, unused type parameter for test.
+ """
+C:\Users\simon\Documents\Code\thesis-code\commons-lang-master\src\test\java\org\apache\commons\lang3\reflect\TypeUtilsTest.java,TypeUtilsTest.java,Test2,"""
+     * Test fixture.
+     *
+     * @param <S> Test fixture type, unused type parameter for test.
+     """
+C:\Users\simon\Documents\Code\thesis-code\commons-lang-master\src\test\java\org\apache\commons\lang3\reflect\TypeUtilsTest.java,TypeUtilsTest.java,Test2,"""
+     * Test fixture.
+     *
+     * @param <S> Test fixture type, unused type parameter for test.
+     """
+C:\Users\simon\Documents\Code\thesis-code\commons-lang-master\src\test\java\org\apache\commons\lang3\reflect\TypeUtilsTest.java,TypeUtilsTest.java,Test2,""" Unused type parameter for test"""
+C:\Users\simon\Documents\Code\thesis-code\commons-lang-master\src\test\java\org\apache\commons\lang3\reflect\TypeUtilsTest.java,TypeUtilsTest.java,Test2,""" Unused type parameter for test"""
+C:\Users\simon\Documents\Code\thesis-code\commons-lang-master\src\test\java\org\apache\commons\lang3\reflect\TypeUtilsTest.java,TypeUtilsTest.java,Test2,""" Unused type parameter for test"""
+C:\Users\simon\Documents\Code\thesis-code\commons-lang-master\src\test\java\org\apache\commons\lang3\reflect\TypeUtilsTest.java,TypeUtilsTest.java,Test2,""" Unused type parameter for test"""
+C:\Users\simon\Documents\Code\thesis-code\commons-lang-master\src\test\java\org\apache\commons\lang3\reflect\TypeUtilsTest.java,TypeUtilsTest.java,Test2,""" Unused type parameter for test"""
+C:\Users\simon\Documents\Code\thesis-code\commons-lang-master\src\test\java\org\apache\commons\lang3\reflect\TypeUtilsTest.java,TypeUtilsTest.java,Test2,""" Unused type parameter for test"""
+C:\Users\simon\Documents\Code\thesis-code\commons-lang-master\src\test\java\org\apache\commons\lang3\reflect\TypeUtilsTest.java,TypeUtilsTest.java,Test2,""" Unused type parameter for test"""
+C:\Users\simon\Documents\Code\thesis-code\commons-lang-master\src\test\java\org\apache\commons\lang3\reflect\TypeUtilsTest.java,TypeUtilsTest.java,Test2,""" Unused type parameter for test"""
+C:\Users\simon\Documents\Code\thesis-code\commons-lang-master\src\test\java\org\apache\commons\lang3\reflect\TypeUtilsTest.java,TypeUtilsTest.java,Test2,""" Unused type parameter for test"""
+C:\Users\simon\Documents\Code\thesis-code\commons-lang-master\src\test\java\org\apache\commons\lang3\reflect\TypeUtilsTest.java,TypeUtilsTest.java,Test2,""" Unused type parameter for test"""
+C:\Users\simon\Documents\Code\thesis-code\commons-lang-master\src\test\java\org\apache\commons\lang3\reflect\TypeUtilsTest.java,TypeUtilsTest.java,Test2,""" TODO: Is this correct?"""
+C:\Users\simon\Documents\Code\thesis-code\commons-lang-master\src\test\java\org\apache\commons\lang3\reflect\TypeUtilsTest.java,TypeUtilsTest.java,Test2,""" TODO: Is this correct?"""
+C:\Users\simon\Documents\Code\thesis-code\commons-lang-master\src\test\java\org\apache\commons\lang3\reflect\TypeUtilsTest.java,TypeUtilsTest.java,Test2,""" TODO This test returns true unlike the test above."""
+C:\Users\simon\Documents\Code\thesis-code\commons-lang-master\src\test\java\org\apache\commons\lang3\SerializationUtilsTest.java,SerializationUtilsTest.java,SerializationUtilsTest,""" needed to cause Exception"""
+C:\Users\simon\Documents\Code\thesis-code\commons-lang-master\src\test\java\org\apache\commons\lang3\StringEscapeUtilsTest.java,StringEscapeUtilsTest.java,StringEscapeUtilsTest,""" TODO: I think this should hold, needs further investigation"""
+C:\Users\simon\Documents\Code\thesis-code\commons-lang-master\src\test\java\org\apache\commons\lang3\StringEscapeUtilsTest.java,StringEscapeUtilsTest.java,StringEscapeUtilsTest,""" TODO: refine API for escaping/unescaping specific HTML versions"""
+C:\Users\simon\Documents\Code\thesis-code\commons-lang-master\src\test\java\org\apache\commons\lang3\text\ExtendedMessageFormatTest.java,ExtendedMessageFormatTest.java,UpperCaseFormatFactory,"""
+     * Create an ExtendedMessageFormat for the specified pattern and locale and check the
+     * formatted output matches the expected result for the parameters.
+     * @param pattern string
+     * @param registryUnused map (currently unused)
+     * @param args Object[]
+     * @param locale Locale
+     """
+C:\Users\simon\Documents\Code\thesis-code\commons-lang-master\src\test\java\org\apache\commons\lang3\time\DurationFormatUtilsTest.java,DurationFormatUtilsTest.java,DurationFormatUtilsTest,""" TODO Jacoco shows missing coverage for internal negative days"""
+C:\Users\simon\Documents\Code\thesis-code\commons-lang-master\src\test\java\org\apache\commons\lang3\time\FastDateParserTest.java,FastDateParserTest.java,FastDateParserTest,"""
+     * Override this method in derived tests to change the construction of instances
+     *
+     * @param dpProvider TODO
+     * @param format the format string to use
+     * @param timeZone the time zone to use
+     * @param locale the locale to use
+     * @return the DateParser instance to use for testing
+     """
+C:\Users\simon\Documents\Code\thesis-code\commons-lang-master\src\test\java\org\apache\commons\lang3\time\FastDateParser_TimeZoneStrategyTest.java,FastDateParser_TimeZoneStrategyTest.java,FastDateParser_TimeZoneStrategyTest,"""
+     * Tests that known short {@link ZoneId}s still parse since all short IDs are deprecated starting in Java 25, but are not removed.
+     *
+     * TODO: Why don't all short IDs parse, even on Java 8?
+     *
+     * @throws ParseException Thrown on test failure.
+     """
+C:\Users\simon\Documents\Code\thesis-code\commons-lang-master\src\test\java\org\apache\commons\lang3\time\FastDateParser_TimeZoneStrategyTest.java,FastDateParser_TimeZoneStrategyTest.java,FastDateParser_TimeZoneStrategyTest,"""
+     * Tests that {@link ZoneId#SHORT_IDS} keys and values still works as they are deprecated starting in Java 25, but not removed yet.
+     *
+     * TODO: Why don't all short IDs parse, even on Java 8?
+     *
+     * @throws ParseException Thrown on test failure.
+     """
+C:\Users\simon\Documents\Code\thesis-code\commons-lang-master\src\test\java\org\apache\commons\lang3\time\FastDateParser_TimeZoneStrategyTest.java,FastDateParser_TimeZoneStrategyTest.java,FastDateParser_TimeZoneStrategyTest,""" Hack Start"""
+C:\Users\simon\Documents\Code\thesis-code\commons-lang-master\src\test\java\org\apache\commons\lang3\time\FastDateParser_TimeZoneStrategyTest.java,FastDateParser_TimeZoneStrategyTest.java,FastDateParser_TimeZoneStrategyTest,""" Hack End"""

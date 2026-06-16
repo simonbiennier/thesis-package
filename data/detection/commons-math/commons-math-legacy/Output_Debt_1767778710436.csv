@@ -1,0 +1,42 @@
+FilePath,FileName,ClassName,Comment
+C:\Users\simon\Documents\Code\thesis-code\commons-math-master\commons-math-legacy\src\test\java\org\apache\commons\math4\legacy\analysis\solvers\BaseSecantSolverAbstractTest.java,BaseSecantSolverAbstractTest.java,BaseSecantSolverAbstractTest,""" Skip test, if needed."""
+C:\Users\simon\Documents\Code\thesis-code\commons-math-master\commons-math-legacy\src\test\java\org\apache\commons\math4\legacy\analysis\solvers\UnivariateSolverUtilsTest.java,UnivariateSolverUtilsTest.java,UnivariateSolverUtilsTest,"""             Assert.fail( Expecting MathIllegalArgumentException ); // TODO needs rework since convergence behaviour was changed"""
+C:\Users\simon\Documents\Code\thesis-code\commons-math-master\commons-math-legacy\src\test\java\org\apache\commons\math4\legacy\distribution\EmpiricalDistributionTest.java,EmpiricalDistributionTest.java,EmpiricalDistributionTest,"""TODO: replace with statistical tests"""
+C:\Users\simon\Documents\Code\thesis-code\commons-math-master\commons-math-legacy\src\test\java\org\apache\commons\math4\legacy\fitting\leastsquares\AbstractLeastSquaresOptimizerAbstractTest.java,AbstractLeastSquaresOptimizerAbstractTest.java,LinearProblem,"""TODO more specific test? could pass with 'return 1;'"""
+C:\Users\simon\Documents\Code\thesis-code\commons-math-master\commons-math-legacy\src\test\java\org\apache\commons\math4\legacy\fitting\leastsquares\AbstractLeastSquaresOptimizerAbstractTest.java,AbstractLeastSquaresOptimizerAbstractTest.java,LinearProblem,"""TODO what is this actually testing?"""
+C:\Users\simon\Documents\Code\thesis-code\commons-math-master\commons-math-legacy\src\test\java\org\apache\commons\math4\legacy\fitting\leastsquares\AbstractLeastSquaresOptimizerAbstractTest.java,AbstractLeastSquaresOptimizerAbstractTest.java,LinearProblem,"""TODO why is this part here? hasn't it been tested already?"""
+C:\Users\simon\Documents\Code\thesis-code\commons-math-master\commons-math-legacy\src\test\java\org\apache\commons\math4\legacy\fitting\leastsquares\AbstractLeastSquaresOptimizerAbstractTest.java,AbstractLeastSquaresOptimizerAbstractTest.java,LinearProblem,"""TODO move to builder test"""
+C:\Users\simon\Documents\Code\thesis-code\commons-math-master\commons-math-legacy\src\test\java\org\apache\commons\math4\legacy\fitting\leastsquares\AbstractLeastSquaresOptimizerAbstractTest.java,AbstractLeastSquaresOptimizerAbstractTest.java,LinearProblem,"""TODO move to builder test"""
+C:\Users\simon\Documents\Code\thesis-code\commons-math-master\commons-math-legacy\src\test\java\org\apache\commons\math4\legacy\fitting\leastsquares\GaussNewtonOptimizerWithCholeskyTest.java,GaussNewtonOptimizerWithCholeskyTest.java,GaussNewtonOptimizerWithCholeskyTest,"""
+         * TODO This test leads to a singular problem with the Gauss-Newton
+         * optimizer. This should be inquired.
+         """
+C:\Users\simon\Documents\Code\thesis-code\commons-math-master\commons-math-legacy\src\test\java\org\apache\commons\math4\legacy\fitting\leastsquares\GaussNewtonOptimizerWithLUTest.java,GaussNewtonOptimizerWithLUTest.java,GaussNewtonOptimizerWithLUTest,"""
+         * TODO This test leads to a singular problem with the Gauss-Newton
+         * optimizer. This should be inquired.
+         """
+C:\Users\simon\Documents\Code\thesis-code\commons-math-master\commons-math-legacy\src\test\java\org\apache\commons\math4\legacy\fitting\leastsquares\GaussNewtonOptimizerWithQRTest.java,GaussNewtonOptimizerWithQRTest.java,GaussNewtonOptimizerWithQRTest,"""
+         * TODO This test leads to a singular problem with the Gauss-Newton
+         * optimizer. This should be inquired.
+         """
+C:\Users\simon\Documents\Code\thesis-code\commons-math-master\commons-math-legacy\src\test\java\org\apache\commons\math4\legacy\fitting\leastsquares\GaussNewtonOptimizerWithSVDTest.java,GaussNewtonOptimizerWithSVDTest.java,GaussNewtonOptimizerWithSVDTest,"""
+         * TODO This test leads to a singular problem with the Gauss-Newton
+         * optimizer. This should be inquired.
+         """
+C:\Users\simon\Documents\Code\thesis-code\commons-math-master\commons-math-legacy\src\test\java\org\apache\commons\math4\legacy\fitting\leastsquares\LevenbergMarquardtOptimizerTest.java,LevenbergMarquardtOptimizerTest.java,LevenbergMarquardtOptimizerTest,"""TODO check that it is a bad fit? Why the extra conditions?"""
+C:\Users\simon\Documents\Code\thesis-code\commons-math-master\commons-math-legacy\src\test\java\org\apache\commons\math4\legacy\fitting\leastsquares\LevenbergMarquardtOptimizerTest.java,LevenbergMarquardtOptimizerTest.java,LevenbergMarquardtOptimizerTest,"""TODO why should this fail? It uses 15 evaluations."""
+C:\Users\simon\Documents\Code\thesis-code\commons-math-master\commons-math-legacy\src\test\java\org\apache\commons\math4\legacy\fitting\leastsquares\LevenbergMarquardtOptimizerTest.java,LevenbergMarquardtOptimizerTest.java,LevenbergMarquardtOptimizerTest,"""TODO check it got the right answer"""
+C:\Users\simon\Documents\Code\thesis-code\commons-math-master\commons-math-legacy\src\test\java\org\apache\commons\math4\legacy\ode\TestFieldProblem4.java,TestFieldProblem4.java,Stop,""" this sign change is needed because the state will be reset soon"""
+C:\Users\simon\Documents\Code\thesis-code\commons-math-master\commons-math-legacy\src\test\java\org\apache\commons\math4\legacy\ode\TestFieldProblem4.java,TestFieldProblem4.java,Stop,""" this sign change is needed because the state will be reset soon"""
+C:\Users\simon\Documents\Code\thesis-code\commons-math-master\commons-math-legacy\src\test\java\org\apache\commons\math4\legacy\ode\TestProblem4.java,TestProblem4.java,Stop,""" this sign change is needed because the state will be reset soon"""
+C:\Users\simon\Documents\Code\thesis-code\commons-math-master\commons-math-legacy\src\test\java\org\apache\commons\math4\legacy\ode\TestProblem4.java,TestProblem4.java,Stop,""" this sign change is needed because the state will be reset soon"""
+C:\Users\simon\Documents\Code\thesis-code\commons-math-master\commons-math-legacy\src\test\java\org\apache\commons\math4\legacy\optim\linear\SimplexSolverTest.java,SimplexSolverTest.java,SimplexSolverTest,"""
+     * With no artificial variables needed (no equals and no greater than
+     * constraints) we can go straight to Phase 2.
+     """
+C:\Users\simon\Documents\Code\thesis-code\commons-math-master\commons-math-legacy\src\test\java\org\apache\commons\math4\legacy\optim\nonlinear\scalar\noderiv\BOBYQAOptimizerTest.java,BOBYQAOptimizerTest.java,BOBYQAOptimizerTest,""" TODO: this test is temporarily disabled for 3.2 release as a bug in Cobertura"""
+C:\Users\simon\Documents\Code\thesis-code\commons-math-master\commons-math-legacy\src\test\java\org\apache\commons\math4\legacy\optim\nonlinear\scalar\noderiv\BOBYQAOptimizerTest.java,BOBYQAOptimizerTest.java,BOBYQAOptimizerTest,""" TODO: this test is temporarily disabled for 3.2 release as a bug in Cobertura"""
+C:\Users\simon\Documents\Code\thesis-code\commons-math-master\commons-math-legacy\src\test\java\org\apache\commons\math4\legacy\stat\descriptive\rank\PSquarePercentileTest.java,PSquarePercentileTest.java,PSquarePercentileTest,""" TODO: Correct this delta so the test does more than simply checking"""
+C:\Users\simon\Documents\Code\thesis-code\commons-math-master\commons-math-legacy\src\test\java\org\apache\commons\math4\legacy\stat\descriptive\SummaryStatisticsTest.java,SummaryStatisticsTest.java,SumStat,"""FiXME: test all other NaN contract specs"""
+C:\Users\simon\Documents\Code\thesis-code\commons-math-master\commons-math-legacy\src\test\java\org\apache\commons\math4\legacy\stat\regression\GLSMultipleLinearRegressionTest.java,GLSMultipleLinearRegressionTest.java,GLSMultipleLinearRegressionTest,""" TODO:  Should have assertRelativelyEquals(double[], double[], eps) in TestUtils"""
+C:\Users\simon\Documents\Code\thesis-code\commons-math-master\commons-math-legacy\src\test\java\org\apache\commons\math4\legacy\stat\regression\SimpleRegressionTest.java,SimpleRegressionTest.java,SimpleRegressionTest,"""FIXME: get a real example to test against with alpha = .01"""

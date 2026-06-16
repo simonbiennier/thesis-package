@@ -1,0 +1,2 @@
+run_id,version,duration,energy,power,dram_energy,memory_mean,memory_median,memory_delta,cpu_usage_mean,cpu_usage_median
+001,base,30.04,258.7305908203125,8.612869201741429,19.699890136726026,7810.935109991777,7818.455078125,29.15625,1.4864007360056828,0.7478866577148438

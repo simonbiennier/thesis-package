@@ -1,0 +1,4 @@
+FilePath,FileName,ClassName,MethodName,TotalStatements,TotalParameters,ReturnType,AccessModifier,MethodHasAnnotation,MethodHasTestInName,FileHasTestInName,ClassHasTestInName
+C:\Users\simon\Documents\Code\thesis-code\okhttp-master\module-tests\src\test\java\okhttp3\modules\test\JavaModuleTest.java,JavaModuleTest.java,JavaModuleTest,testVisibility,1,0,void,public,true,true,true,true
+C:\Users\simon\Documents\Code\thesis-code\okhttp-master\module-tests\src\test\java\okhttp3\modules\test\JavaModuleTest.java,JavaModuleTest.java,JavaModuleTest,testMockWebServer,5,0,void,public,true,true,true,true
+C:\Users\simon\Documents\Code\thesis-code\okhttp-master\module-tests\src\test\java\okhttp3\modules\test\JavaModuleTest.java,JavaModuleTest.java,JavaModuleTest,testModules,6,0,void,public,true,true,true,true

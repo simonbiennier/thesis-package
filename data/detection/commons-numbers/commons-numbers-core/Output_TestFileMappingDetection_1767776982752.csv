@@ -1,0 +1,12 @@
+TestFilePath,ProductionFilePath
+C:\Users\simon\Documents\Code\thesis-code\commons-numbers-master\commons-numbers-core\src\test\java\org\apache\commons\numbers\core\AdditionTest.java,
+C:\Users\simon\Documents\Code\thesis-code\commons-numbers-master\commons-numbers-core\src\test\java\org\apache\commons\numbers\core\ArithmeticUtilsTest.java,C:\Users\simon\Documents\Code\thesis-code\commons-numbers-master\commons-numbers-core\src\main\java\org\apache\commons\numbers\core\ArithmeticUtils.java
+C:\Users\simon\Documents\Code\thesis-code\commons-numbers-master\commons-numbers-core\src\test\java\org\apache\commons\numbers\core\DDTest.java,C:\Users\simon\Documents\Code\thesis-code\commons-numbers-master\commons-numbers-core\src\main\java\org\apache\commons\numbers\core\DD.java
+C:\Users\simon\Documents\Code\thesis-code\commons-numbers-master\commons-numbers-core\src\test\java\org\apache\commons\numbers\core\EpsilonDoubleEquivalenceTest.java,
+C:\Users\simon\Documents\Code\thesis-code\commons-numbers-master\commons-numbers-core\src\test\java\org\apache\commons\numbers\core\ExtendedPrecisionTest.java,C:\Users\simon\Documents\Code\thesis-code\commons-numbers-master\commons-numbers-core\src\main\java\org\apache\commons\numbers\core\ExtendedPrecision.java
+C:\Users\simon\Documents\Code\thesis-code\commons-numbers-master\commons-numbers-core\src\test\java\org\apache\commons\numbers\core\MultiplicationTest.java,
+C:\Users\simon\Documents\Code\thesis-code\commons-numbers-master\commons-numbers-core\src\test\java\org\apache\commons\numbers\core\NormTest.java,
+C:\Users\simon\Documents\Code\thesis-code\commons-numbers-master\commons-numbers-core\src\test\java\org\apache\commons\numbers\core\PrecisionTest.java,
+C:\Users\simon\Documents\Code\thesis-code\commons-numbers-master\commons-numbers-core\src\test\java\org\apache\commons\numbers\core\SumTest.java,C:\Users\simon\Documents\Code\thesis-code\commons-numbers-master\commons-numbers-core\src\main\java\org\apache\commons\numbers\core\Sum.java
+C:\Users\simon\Documents\Code\thesis-code\commons-numbers-master\commons-numbers-core\src\test\java\org\apache\commons\numbers\core\TestUtils.java,
+C:\Users\simon\Documents\Code\thesis-code\commons-numbers-master\commons-numbers-core\src\test\java\org\apache\commons\numbers\core\UserGuideTest.java,

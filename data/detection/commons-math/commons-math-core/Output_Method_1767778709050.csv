@@ -1,0 +1,3 @@
+FilePath,FileName,ClassName,MethodName,TotalStatements,TotalParameters,ReturnType,AccessModifier,MethodHasAnnotation,MethodHasTestInName,FileHasTestInName,ClassHasTestInName
+C:\Users\simon\Documents\Code\thesis-code\commons-math-master\commons-math-core\src\test\java\org\apache\commons\math4\core\jdkmath\JdkMathTest.java,JdkMathTest.java,JdkMathTest,checkMissingMethods,5,0,void,public,true,false,true,true
+C:\Users\simon\Documents\Code\thesis-code\commons-math-master\commons-math-core\src\test\java\org\apache\commons\math4\core\jdkmath\JdkMathTest.java,JdkMathTest.java,JdkMathTest,compareClassMethods,3,2,List<String>,private,false,false,true,true

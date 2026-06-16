@@ -1,0 +1,4 @@
+DRIVER_PATH: "./tools/LibreHardwareMonitor.sys"
+JUNIT_PATH: "./tools/junit-platform-console-standalone-1.10.2.jar"
+INSTANCES_PATH: "./data/instances.csv"
+SYSTEMS_PATH: "../systems"

@@ -1,0 +1,3 @@
+FilePath,FileName,ClassName,MethodName,TotalStatements,TotalParameters,ReturnType,AccessModifier,MethodHasAnnotation,MethodHasTestInName,FileHasTestInName,ClassHasTestInName
+C:\Users\simon\Documents\Code\thesis-code\gson-main\test-shrinker\src\main\java\com\example\TestExecutor.java,TestExecutor.java,TestExecutor,run,3,3,void,public; static,false,false,true,true
+C:\Users\simon\Documents\Code\thesis-code\gson-main\test-shrinker\src\main\java\com\example\TestExecutor.java,TestExecutor.java,TestExecutor,same,1,1,T,public; static,false,false,true,true

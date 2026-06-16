@@ -1,0 +1,10 @@
+TestFilePath,ProductionFilePath
+C:\Users\simon\Documents\Code\thesis-code\commons-math-master\commons-math-legacy-core\src\test\java\org\apache\commons\math4\legacy\core\dfp\DfpDecTest.java,C:\Users\simon\Documents\Code\thesis-code\commons-math-master\commons-math-legacy-core\src\main\java\org\apache\commons\math4\legacy\core\dfp\DfpDec.java
+C:\Users\simon\Documents\Code\thesis-code\commons-math-master\commons-math-legacy-core\src\test\java\org\apache\commons\math4\legacy\core\dfp\DfpMathTest.java,C:\Users\simon\Documents\Code\thesis-code\commons-math-master\commons-math-legacy-core\src\main\java\org\apache\commons\math4\legacy\core\dfp\DfpMath.java
+C:\Users\simon\Documents\Code\thesis-code\commons-math-master\commons-math-legacy-core\src\test\java\org\apache\commons\math4\legacy\core\dfp\DfpTest.java,C:\Users\simon\Documents\Code\thesis-code\commons-math-master\commons-math-legacy-core\src\main\java\org\apache\commons\math4\legacy\core\dfp\Dfp.java
+C:\Users\simon\Documents\Code\thesis-code\commons-math-master\commons-math-legacy-core\src\test\java\org\apache\commons\math4\legacy\core\ExtendedFieldElementAbstractTest.java,
+C:\Users\simon\Documents\Code\thesis-code\commons-math-master\commons-math-legacy-core\src\test\java\org\apache\commons\math4\legacy\core\IntegerSequenceTest.java,
+C:\Users\simon\Documents\Code\thesis-code\commons-math-master\commons-math-legacy-core\src\test\java\org\apache\commons\math4\legacy\core\jdkmath\AccurateMathStrictComparisonTest.java,
+C:\Users\simon\Documents\Code\thesis-code\commons-math-master\commons-math-legacy-core\src\test\java\org\apache\commons\math4\legacy\core\jdkmath\AccurateMathTest.java,
+C:\Users\simon\Documents\Code\thesis-code\commons-math-master\commons-math-legacy-core\src\test\java\org\apache\commons\math4\legacy\core\MathArraysTest.java,
+C:\Users\simon\Documents\Code\thesis-code\commons-math-master\commons-math-legacy-core\src\test\java\org\apache\commons\math4\legacy\core\PairTest.java,C:\Users\simon\Documents\Code\thesis-code\commons-math-master\commons-math-legacy-core\src\main\java\org\apache\commons\math4\legacy\core\Pair.java

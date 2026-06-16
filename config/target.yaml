@@ -1,0 +1,16 @@
+RESULTS_BASE_DIR: data/results
+TIMESTAMP_FORMAT: "%m%d_%H%M%S"
+
+LABEL_ORIGINAL: OR
+LABEL_REFACTORED: RF
+
+TEMPLATE_WARMUP_FILE: raw/warmup_{id:03d}_{label}.csv
+TEMPLATE_BASELINE_FILE: raw/base_{id:03d}.csv
+TEMPLATE_RUN_FILE: raw/run_{id:03d}_{label}.csv
+SUMMARY_FILE_TEMPLATE: summary_{label}.csv
+
+# specifies which instances to run in the experiment
+INSTANCE_IDS:
+  - AA_0001
+  - AA_0002
+  # etc.
